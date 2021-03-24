@@ -1,0 +1,58 @@
+/* HEADER STARTS */
+header {
+  background-color: #31404ee3;
+  padding: 60px 0px 40px;
+}
+.nav-item {
+  padding: 0px 10px;
+}
+.nav-item a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: wheat;
+}
+
+.nav-link {
+  border-bottom: 2px solid transparent;
+  transition: all linear 0.3s;
+}
+
+.nav-link:hover {
+  /* color: #794bc4; */
+  border-bottom: 2px solid brown;
+}
+.navbar-brand {
+  margin-right: 0 !important;
+  right: 50%;
+  transform: translate(50%, -60px);
+  top: 0;
+  position: absolute;
+}
+
+.navbar-brand img {
+  max-width: 140px;
+}
+header {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(63, 62, 62);
+  z-index: 99;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: url(http://assets.stickpng.com/images/588a64e7d06f6719692a2d11.png);
+}
+
+#bce{
+    margin-top: 200px;
+}
