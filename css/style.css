@@ -244,6 +244,14 @@ footer .overlaybttn {
   bottom: 0px;
   right: 40px;
 }
+.ft_logo {
+  max-width: 150px;
+  transition: all linear 0.5s;
+}
+
+.ft_logo:hover {
+  transform: scale(1.1);
+}
 /* Footer Ends*/
 
 /* Responsive */
@@ -309,6 +317,13 @@ footer .overlaybttn {
   }
 }
 @media (max-width: 599px) {
+  header {
+    padding: 30px 0px 40px !important;
+  }
+  .typer {
+    margin-top: 160px !important;
+    text-align: end;
+  }
   .syllabus {
     padding: 0;
   }
@@ -321,7 +336,7 @@ footer .overlaybttn {
     font-size: 22px;
   }
   #bce {
-    margin-top: 40px;
+    margin-top: 30px !important;
   }
   .section-title h1 {
     font-size: 30px !important;

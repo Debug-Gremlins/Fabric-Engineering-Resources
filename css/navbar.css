@@ -1,7 +1,7 @@
 /* HEADER STARTS */
 header {
   background-color: #16443eda;
-  padding: 60px 0px 40px;
+  padding: 50px 0px 40px;
   border-bottom: 2px solid #c5d7bd;
 }
 .nav-item {
@@ -12,6 +12,37 @@ header {
   text-transform: uppercase;
   font-size: 20px;
   color: wheat;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background-color: #16443eda  !important;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0c0a0a;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item.active, .dropdown-item{
+  transition: all  linear 0.3s;
+}
+.dropdown-item.active, .dropdown-item:hover {
+    color: wheat;
+    text-decoration: none;
+    background-color: rgb(112, 116, 121) !important;
 }
 
 .nav-link {
@@ -38,7 +69,8 @@ header {
   transition: all linear 0.3s;
 }
 
-.rotate {
+.rotate,
+.ft_logo {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
 }
