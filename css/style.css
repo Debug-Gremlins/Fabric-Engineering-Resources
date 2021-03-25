@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #15202b;
@@ -54,7 +58,7 @@ body {
   text-align: end;
 }
 .typer h1 {
-  color: #ebd8b7;
+  color: #e0245e;
 }
 /* Card Starts */
 .card {
@@ -144,6 +148,23 @@ section table tr td:nth-child(3) {
   color: #17bf63;
 }
 /* Syllabus Ends */
+
+/* Routine Starts */
+.rot_link a {
+  background: #794bc4;
+  text-decoration: none;
+  color: wheat;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  font-size: 20px;
+}
+
+.rot_link:hover {
+  opacity: 0.5;
+}
+/* Routine Ends */
 
 /* Bus Starts */
 .bus-route {

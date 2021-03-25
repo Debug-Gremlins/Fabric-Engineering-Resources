@@ -10,6 +10,7 @@ var typed = new Typed(".text", {
     "Syllabus!",
     "Class Lectures!",
     "PDF Files!",
+    "Routine!",
     "Bus Routes!",
   ],
   stringsElement: null,
