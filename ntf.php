@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- AOS CSS
+    <link rel="stylesheet" href="css/aos.css"> -->
+
+    <!---Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/light-theme.css"> -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- <link rel="stylesheet" href="css/toggle-dark-mode.css"> -->
+    <link rel="icon" class="icon" href="images/logo.png">
+</head>
+
+<!-- NTF Section Starts Here -->
+<section id="ntf" data-aos="fade-up-left" data-aos-duration="5000">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                <div class="section-title">
+                    <h1>Natural Textile Fiber (NTF)</h1>
+                </div>
+
+                <div class="overlaybttn">
+                    <a id="topntf" href="#bottomntf"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                        <span>Bottom</span></a>
+                </div>
+
+                <!-- table starts here -->
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Lecturer</th>
+                        <th>Discussed Topics</th>
+                        <th colspan="3">Resources</th>
+                    </tr>
+
+                    <tbody>
+                        <tr>
+                            <td>04 Oct, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Chemical Properties of Silk</td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1OorsHilkIvoFHE3bnCvjsMYoiBjo1Bli/view" target="_blank" rel="noopener noreferrer"> Lecture Video
+                                </a>
+                            </td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>04 Oct, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Silk End Part</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1P5lEFTuiiBm0vR3sg_mDeKtrPG26yBC_/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>19 Oct, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Flax (Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1SmAkkxNpLma9GKZ0euGNIxZnrV3bQV_D/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>22 Nov, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Flax Extraction</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1oahBbYYB9Nj1dyPdWtjl1ZLu7avJkTsr/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>06 Dec, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Phy. and Chem. Properties of Flax</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1f3g0byAMa2MXQX1GLNO-FSn-ZeKzUs51/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>20 Dec, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Wool (Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1Vcow9fUVH_m5NczE223WGwuMDG5kZLaR/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>03 Jan, 2021</td>
+                            <td>Tanima Mam</td>
+                            <td>Wool (Part 2)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1v7OefhcS7uSqY89yBvMERhneeziuJDFg/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>17 Jan, 2020</td>
+                            <td>Tanima Mam</td>
+                            <td>Wool Morphology</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1tX1ChhjlrhkPoFNz_g_d0QKCpCau8qRM/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>31 Jan, 2021</td>
+                            <td>Tanima Mam</td>
+                            <td>Micro-structure of Wool(Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1Q0IgI5569YX7aUwAdX_Xv6pfTDHUuOy2/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>03 Jan, 2021</td>
+                            <td>Tanima Mam</td>
+                            <td>Micro-structure of Wool(Part 2)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1aLbM1XcOpcjtqJH07ZnUJW_Gu83BgYMh/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>11 Oct, 2020</td>
+                            <td>Bashar Sir</td>
+                            <td>Chemical Properties of Cotton</td>
+                            <td class="link"><a href="https://drive.google.com/drive/u/0/folders/1C8-EzzHoTLYbfamiNCz9HKS5Kl0Phf0v" target="_blank" rel="noopener noreferrer">Drive Link</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>16 Nov, 2020</td>
+                            <td>Bashar Sir</td>
+                            <td>Physical Properties of Cotton</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1ig-HNH6hJADVahkfElIlcBQGV8FqIEAH/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>29 Nov, 2020</td>
+                            <td>Bashar Sir</td>
+                            <td>Identification of Cotton</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1wZlHtH2qoWk2-lpWxkpXjxh8PxSgoqly/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>10 Jan, 2021</td>
+                            <td>Bashar Sir</td>
+                            <td>Ginning Process</td>
+                            <td class="link"><a href="https://drive.google.com/drive/u/0/folders/1F8CuUbmM6YWzUeefv-8A8k1-x7xK3Dh-" target="_blank" rel="noopener noreferrer">Drive Link</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>07 Feb, 2021</td>
+                            <td>Bashar Sir</td>
+                            <td>Cotton Botanical Class</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1NRIKoJRo0IxMVYYA0n3PqS6VZNMAeQbX/view" target="_blank" rel="noopener noreferrer">Drive Link</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>07 Mar, 2021</td>
+                            <td>Bashar Sir</td>
+                            <td>Jute Fiber (Part 1)</td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1ubq1a2hIQnya7ZWasdw1s5TCVyqaahmS/view" target="_blank" rel="noopener noreferrer"> Lecture Video
+                                </a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1QmXM1ZobNv_Bw3q44KgiHICuwn4dKjzm/view" target="_blank" rel="noopener noreferrer"> PDF 1</a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1kFH1YF1P4tLZyyEzOaxffZ1c7OSRVS5A/view" target="_blank" rel="noopener noreferrer"> PDF 2</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>07 Mar, 2021</td>
+                            <td>Bashar Sir</td>
+                            <td>Jute Fiber (Part 2)</td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1f9X6RnvXvpv2ehbwmEzKLqrxkzEFUGX2/view" target="_blank" rel="noopener noreferrer"> Lecture Video
+                                </a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1gSVSBi7S2leeEU1MbM_bF2TIzNDbUwGc/view" target="_blank" rel="noopener noreferrer"> PDF 3</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>21 Mar, 2021</td>
+                            <td>Tanima Mam</td>
+                            <td>Asbestos</td>
+                            <td class="link">
+                                <a href="https://drive.google.com/drive/u/2/folders/1FYX1ESwt_b-9R6boobtzDjb0LbL0ekDp" target="_blank" rel="noopener noreferrer"> Lecture Video
+                                </a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/11TZ8xZigMLnQoN9rC8eW30SABR5JZk3j/view" target="_blank" rel="noopener noreferrer"> PDF</a>
+                            </td>
+                            <!-- <td class="link">--</td> -->
+                        </tr>
+
+                        <tr>
+                            <td>28 Mar, 2021</td>
+                            <td>Bashar Sir</td>
+                            <td>Jute Fiber (Part 3)</td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1hKz6bHymgFEcyvT4lIZWMaJGhdywf3Er/view" target="_blank" rel="noopener noreferrer"> Lecture Video
+                                </a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1fve9YvfOZIuU5szRY9E0U0OUKfX-3RHO/view" target="_blank" rel="noopener noreferrer"> PDF 4</a>
+                            </td>
+                            <td class="link">
+                                <a href="https://drive.google.com/file/d/1Yi8ZWkjqp1HYdNnX0zwkGLdkwoPaSklI/view" target="_blank" rel="noopener noreferrer"> PDF 5</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <div class="overlaybttn" data-aos-duration="5000">
+                    <a id="bottomntf" href="#topntf"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                        <span>Top</span></a>
+                </div>
+            </div>
+        </div>
+
+</section>
+<!-- NTF Section Ends Here -->
+
+
+<!-- ==== JS FILE LINKED ==== -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Option 1: Bootstrap Bundle JS cdn-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- jQuery Library cdn  -->
+<!-- <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script> -->
+
+<!-- AOS JS -->
+<!-- <script src="js/aos.js"></script> -->
+
+<!-- jQuery Library cdn  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Day JS -->
+<script src="js/custom/day-message.js"></script>
+
+<!-- Typed JS  -->
+<script src="js/animation/typed.min.js"></script>
+
+<!-- Typed cdn -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+
+<!-- Custom JS -->
+<!-- <script src=" js/custom/custom-aos.js"></script> -->
+
+<!-- waypoints cdn  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+<!-- R Counter JS -->
+<script src="js/jquery.rcounter.js"></script>
+
+<!-- Custom JS -->
+<script src="js/custom/custom-r-counter.js"></script>
+
+<!-- Custom Typed JS -->
+<script src=" js/custom/customtyped.js"></script>
+</body>
+
+</html>

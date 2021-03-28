@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- AOS CSS
+    <link rel="stylesheet" href="css/aos.css"> -->
+
+    <!---Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/light-theme.css"> -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- <link rel="stylesheet" href="css/toggle-dark-mode.css"> -->
+    <link rel="icon" class="icon" href="images/logo.png">
+</head>
+
+<!-- Physics Section Starts Here -->
+<section id="phy" data-aos="fade-up-right" data-aos-duration="5000">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                <div class="section-title">
+                    <h1>Physics</h1>
+                </div>
+
+                <div class="overlaybttn">
+                    <a id="topphy" href="#bottomphy"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                        <span>Bottom</span></a>
+                </div>
+
+                <!-- table starts here -->
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Lecturer</th>
+                        <th>Discussed Topics</th>
+                        <th colspan="3">Resources</th>
+                    </tr>
+
+                    <tbody>
+                        <tr>
+                            <td>01 Oct, 2020</td>
+                            <td>Harun Sir</td>
+                            <td>Fly Wheel</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1Ng3E55FjfAGMIRgjp0BCG6nT8Zq-weBu/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>01 Oct, 2020</td>
+                            <td>Harun Sir</td>
+                            <td>Concept of Inertia</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1K2_9bngfjFfFWkYp3oT4pACOgjEpIs1l/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>12 Nov, 2020</td>
+                            <td>Harun Sir</td>
+                            <td>Moment of Inertia</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/15r_u5Q7k9K04qIgBZR_Aif-rrDJiv66W/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>26 Nov, 2020</td>
+                            <td>Harun Sir</td>
+                            <td>Elasticity (Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1ejTl2ONkDBS5Tuxzy6yK6zhuBJ01LmKu/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>24 Dec, 2020</td>
+                            <td>Harun Sir</td>
+                            <td>Three Modulases</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1pfrBVEhOiSnhqenrL6ovg3E2GyMrrzRf/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>07 Jan, 2021</td>
+                            <td>Harun Sir</td>
+                            <td>Bending of Beams</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1G8-UqWqwDrP79TuO-jBuFpLTtH-gaQ4z/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>21 Jan, 2021</td>
+                            <td>Harun Sir</td>
+                            <td>Elasticity Math</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1aMh3Q3VvcyPfAYG-4LbeaiMV3rbfJr6o/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>04 Feb, 2021</td>
+                            <td>Harun Sir</td>
+                            <td>Fluid Mechanics (Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1lV6KuPJisxUnjSUAsCtSlAqkb2HjVv18/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                        <tr>
+                            <td>25 Mar, 2021</td>
+                            <td>Harun Sir</td>
+                            <td>Polarization (Part 1)</td>
+                            <td class="link"><a href="https://drive.google.com/file/d/1BUK8IFFVRR5s-zLzKnAMmTeuVWmXP22J/view" target="_blank" rel="noopener noreferrer">Lecture Video</a></td>
+                            <td class="link">--</td>
+                            <td class="link">--</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="overlaybttn">
+                    <a id="bottomphy" href="#topphy"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                        <span>Top</span></a>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Physics Section Ends Here -->
+
+<!-- ==== JS FILE LINKED ==== -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Option 1: Bootstrap Bundle JS cdn-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- jQuery Library cdn  -->
+<!-- <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script> -->
+
+<!-- AOS JS -->
+<!-- <script src="js/aos.js"></script> -->
+
+<!-- jQuery Library cdn  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Day JS -->
+<script src="js/custom/day-message.js"></script>
+
+<!-- Typed JS  -->
+<script src="js/animation/typed.min.js"></script>
+
+<!-- Typed cdn -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+
+<!-- Custom JS -->
+<!-- <script src=" js/custom/custom-aos.js"></script> -->
+
+<!-- waypoints cdn  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+<!-- R Counter JS -->
+<script src="js/jquery.rcounter.js"></script>
+
+<!-- Custom JS -->
+<script src="js/custom/custom-r-counter.js"></script>
+
+<!-- Custom Typed JS -->
+<script src=" js/custom/customtyped.js"></script>
+</body>
+
+</html>
