@@ -237,7 +237,7 @@ body {
 }
 
 .vct4 img {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .btn {
@@ -380,6 +380,10 @@ section table tr td:nth-child(3) {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   font-size: 20px;
+}
+
+.routine img{
+  max-width: 100%;
 }
 
 .rot_link:hover {
