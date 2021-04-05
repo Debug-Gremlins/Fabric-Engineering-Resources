@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* Overlay Buttons Starts */
 /* Overlay Buttons Ends */
 /* Card Starts */
@@ -51,7 +54,7 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   background: #15202b;
   color: #e4e4e4;
   overflow-x: hidden;
@@ -77,6 +80,7 @@ body {
 
 .overlaybttn a {
   color: white;
+  font-family: Pacifico;
   display: inline-block;
   text-decoration: none;
   padding: 10px 10px;
@@ -104,11 +108,13 @@ body {
 
 .day-text {
   margin-top: 170px;
+  font-family: Pacifico;
 }
 
 .day-message {
   color: wheat;
   font-size: 40px;
+  font-family: Courgette;
 }
 
 .date {
@@ -122,6 +128,7 @@ body {
 
 .typer h1 {
   color: #e0245e;
+  font-family: Pacifico;
 }
 
 .card {
@@ -165,7 +172,10 @@ body {
   margin-top: 230px;
   padding: 10px;
 }
-
+.bus-route h2 {
+  font-family: Pacifico;
+  color: #e0245e;
+}
 .bus-route img {
   max-width: 100%;
 }
@@ -177,7 +187,6 @@ body {
 .vct2 {
   padding: 0px;
   margin-top: 15px;
-  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
@@ -194,7 +203,6 @@ body {
 .vct3 {
   padding: 0px;
   margin-top: 15px;
-  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
@@ -214,7 +222,6 @@ body {
 
 .vct p {
   margin-top: 15px;
-  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
@@ -230,7 +237,6 @@ body {
 
 .vct4 p {
   margin-top: 15px;
-  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
@@ -238,6 +244,20 @@ body {
 
 .vct4 img {
   max-width: 100%;
+}
+.vct p,
+.vct2 p,
+.vct3 p,
+.vct4 p {
+  color: #e4e4e4;
+}
+
+.vct h1,
+.vct2 h1,
+.vct3 h1,
+.vct4 h1 {
+  color: #e0245e;
+  font-family: Pacifico;
 }
 
 .btn {
@@ -251,6 +271,7 @@ body {
 }
 
 .btn a {
+  font-family: Pacifico;
   color: #15202b;
   text-decoration: none;
   color: #17bf63;
@@ -273,8 +294,9 @@ body {
   font-size: 48px;
 }
 
-.section-title h1 {
-  font-family: "Roboto Slab";
+.section-title h1,
+h2 {
+  font-family: "Pacifico";
   font-weight: 900;
   color: #17bf63;
   font-size: 26px;
@@ -318,6 +340,7 @@ section table tr td:nth-child(3) {
 }
 
 .counter-area h1 {
+  font-family: Pacifico;
   font-size: 30px;
   display: inline-table;
   color: #17bf63;
@@ -328,6 +351,7 @@ section table tr td:nth-child(3) {
 }
 
 .counter-area p {
+  font-family: Poppins;
   color: #794bc4;
   font-size: 20px;
 }
@@ -382,7 +406,7 @@ section table tr td:nth-child(3) {
   font-size: 20px;
 }
 
-.routine img{
+.routine img {
   max-width: 100%;
 }
 
@@ -426,12 +450,15 @@ footer ul li {
 }
 
 footer ul li span {
+  font-size: 26px;
+  font-family: Pacifico;
   color: #e0245e;
   display: inline-block;
   padding: 5px 0px;
 }
 
 footer ul li a {
+  font-family: Poppins;
   text-decoration: none;
   display: inline-block;
   color: #e4e4e4;
@@ -451,22 +478,25 @@ footer .overlaybttn {
 
 h4 {
   color: #e0245e;
+  font-family: Pacifico;
 }
 
 h5 {
   color: #e0245e;
+  font-family: Courgette;
 }
 
 .cpy-rgt {
+  font-family: Pacifico;
   font-size: 20px;
-  font-family: "Raleway";
-  font-weight: 900;
+  font-weight: 400;
   padding: 20px 0px 0px;
 }
 
 .cpy-rgt span a {
   text-decoration: none;
   color: #e0245e;
+  font-weight: 500;
 }
 
 .rotating {
@@ -487,9 +517,9 @@ h5 {
 }
 
 .developedBy h5 {
-  font-family: "Roboto Slab";
+  font-family: "Pacifico";
   margin: 20px 0px;
-  color: #17bf63;
+  color: #e0245e;
 }
 
 .developedBy ul {
@@ -535,11 +565,12 @@ h5 {
 }
 
 .developedBy h1 {
-  color: #7a9de4;
+  font-family: Pacifico;
+  color: #17bf63;
 }
 
 .developedBy p {
-  font-family: "Roboto Slab";
+  font-family: "Poppins";
   color: burlywood;
 }
 
@@ -628,13 +659,16 @@ h5 {
     padding: 10px 10px 0px !important;
   }
   .cpy-rgt {
-    font-size: 17px;
+    font-size: 12px;
   }
   .typer h1 {
     font-size: 22px;
   }
   .foot_bg img {
     max-width: 100% !important;
+  }
+  .developedBy ul {
+    padding: 0 15px !important;
   }
 }
 

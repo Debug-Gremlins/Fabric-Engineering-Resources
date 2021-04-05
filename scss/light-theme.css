@@ -54,7 +54,7 @@ a {
 }
 
 body {
-  font-family: Raleway, sans-serif;
+  font-family: Poppins, sans-serif;
   background: #e0e0e0;
   color: #e4e4e4;
   overflow-x: hidden;
@@ -519,7 +519,7 @@ h5 {
 .developedBy h5 {
   font-family: "Pacifico";
   margin: 20px 0px;
-  color: #e0245e;
+  color: #17bf63;
 }
 
 .developedBy ul {
@@ -549,7 +549,7 @@ h5 {
 }
 
 .developedBy ul li .fa-envelope:hover {
-  color: #d0f743;
+  color: brown;
 }
 
 .developedBy ul li .fa-github:hover {
@@ -566,7 +566,7 @@ h5 {
 
 .developedBy h1 {
   font-family: Pacifico;
-  color: #17bf63;
+  color: #e0245e;
 }
 
 .developedBy p {
