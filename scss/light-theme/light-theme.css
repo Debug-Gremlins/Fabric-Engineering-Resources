@@ -697,6 +697,13 @@ h5 {
   .banner-overlay {
     padding: 100px 0px;
   }
+  .bus-route .card {
+    padding: 30px;
+  }
+  .routine .card {
+    padding: 20px 10px 0px;
+    border-radius: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -711,6 +718,10 @@ h5 {
   }
   .foot_bg img {
     max-width: 100% !important;
+  }
+  .col-sm-6 {
+    flex: 0 0 auto !important;
+    width: 100%;
   }
 }
 
@@ -919,6 +930,10 @@ h5 {
   }
   body {
     padding: 0;
+  }
+  .developedBy p {
+    color: #354066;
+    font-size: 16px;
   }
 }
 
