@@ -25,7 +25,8 @@
     transform: rotate(360deg);
   }
 }
-/* Universal CCS */
+
+/*********** Universal CCS *************/
 * {
   padding: 0;
   margin: 0;
@@ -44,7 +45,40 @@ body {
   color: #e4e4e4;
   overflow-x: hidden;
 }
-/* Universal CCS */
+
+/*Font Controlling */
+
+.overlaybttn a,
+.day-text,
+.vct h1,
+.vct2 h1,
+.vct3 h1,
+.vct4 h1,
+.counter-area h1,
+.section-title h1,
+h2,
+.bus-route h2,
+.developedBy h5,
+.developedBy p,
+footer ul li span,
+h4,
+.cpy-rgt {
+  font-family: "Pacifico";
+}
+
+.day-message,
+.btn a,
+h5 {
+  font-family: "Courgette";
+}
+
+.counter-area p,
+section table {
+  font-family: "Poppins";
+}
+/*Font Controlling */
+
+/*********** Universal CCS *************/
 
 /* Overlay Button Starts */
 .overlaybttn {
@@ -67,11 +101,11 @@ body {
 
 .overlaybttn a {
   color: #e0245e;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px;
-  border-radius: 15px;
+  border-radius: 10px;
   background: #cbb3b3;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -97,13 +131,13 @@ body {
 /* Day Section Starts */
 .day-text {
   margin-top: 170px;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
 }
 
 .day-message {
   color: #2d2d2d;
   font-size: 40px;
-  font-family: Courgette;
+  /* font-family: Courgette; */
 }
 
 .date {
@@ -194,7 +228,7 @@ body {
 .vct3 h1,
 .vct4 h1 {
   color: #e0245e;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
 }
 .btn {
   margin-top: 30px;
@@ -207,7 +241,7 @@ body {
 }
 
 .btn a {
-  font-family: Courgette;
+  /* font-family: Courgette; */
   text-decoration: none;
   color: #17bf63;
   -webkit-transition: all linear 0.5s;
@@ -230,7 +264,7 @@ body {
 }
 
 .counter-area h1 {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   font-size: 30px;
   display: inline-table;
   color: #17bf63;
@@ -241,7 +275,7 @@ body {
 }
 
 .counter-area p {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   color: #794bc4;
   font-size: 20px;
 }
@@ -317,7 +351,7 @@ body {
 
 .section-title h1,
 h2 {
-  font-family: "Pacifico";
+  /* font-family: "Pacifico"; */
   font-weight: 900;
   color: #17bf63;
   font-size: 26px;
@@ -325,7 +359,7 @@ h2 {
 }
 
 section table {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   width: 100%;
 }
 
@@ -416,7 +450,7 @@ section table tr td:nth-child(3) {
 }
 
 .bus-route h2 {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   color: #e0245e;
 }
 
@@ -446,23 +480,29 @@ section table tr td:nth-child(3) {
   margin-top: 80px;
 }
 
-.rot_link a {
-  background: #794bc4;
-  text-decoration: none;
-  color: wheat;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 10px;
-  transition-duration: all linear 0.5s;
-  font-size: 20px;
-}
-
 .routine img {
   max-width: 100%;
 }
 
-.rot_link:hover {
-  opacity: 0.8;
+.section-title .btn {
+  border: 2px solid #794bc4;
+  transition: all linear 0.5s;
+  background-color: #794bc4;
+}
+.section-title .btn a {
+  color: #e0e0e0;
+  transition: all linear 0.3s;
+  font-size: 20px;
+}
+
+.section-title .btn:hover {
+  background-color: transparent;
+  border: 2px solid #794bc4;
+  color: #794bc4;
+}
+
+.section-title .btn:hover a {
+  color: #794bc4;
 }
 /* Routine Section Starts */
 /********************* Accessories.html ***********************/
@@ -473,7 +513,7 @@ section table tr td:nth-child(3) {
 }
 
 .developedBy h5 {
-  font-family: "Pacifico";
+  /* font-family: "Pacifico"; */
   margin: 20px 0px;
   color: #17bf63;
 }
@@ -526,7 +566,7 @@ section table tr td:nth-child(3) {
 }
 
 .developedBy p {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   color: #354066;
 }
 
@@ -548,7 +588,7 @@ section table tr td:nth-child(3) {
 /* Footer Starts */
 footer {
   text-align: center;
-  padding: 70px 0px 30px;
+  padding: 70px 0px 0px;
   border-radius: 30px 30px 0px 0px;
   background: #dcd0d0;
   box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef;
@@ -566,7 +606,7 @@ footer ul li {
 }
 
 footer ul li span {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   color: #e0245e;
   font-size: 26px;
   display: inline-block;
@@ -588,23 +628,30 @@ footer ul li a:hover {
 
 footer .overlaybttn {
   position: absolute;
-  bottom: 0px;
+  bottom: 90px;
   right: 40px;
 }
 
+footer .overlaybttn a {
+  font-size: 20px;
+}
+
+.butex-logo {
+  max-width: 30%;
+}
 h4 {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   color: #e0245e;
 }
 
 h5 {
-  font-family: Courgette;
+  /* font-family: Courgette; */
   color: #e0245e;
 }
 
 .cpy-rgt {
   font-size: 20px;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   font-weight: 400;
   padding: 20px 0px 0px;
 }
@@ -616,18 +663,17 @@ h5 {
 }
 
 .rotating {
-  max-width: 190px;
   max-width: 50%;
-  -webkit-transition: all linear 0.5s;
+  /* -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
   -webkit-animation: rotating 7s linear infinite;
-  animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite; */
 }
 
 .foot_bg img {
   max-width: 100%;
 }
-/* Footer Starts */
+/* Footer Ends */
 
 /************* Responsive ****************/
 @media (max-width: 1199px) {
@@ -884,12 +930,8 @@ h5 {
     position: relative;
   }
   footer .overlaybttn {
-    position: absolute;
-    bottom: 160px !important;
-    right: 0px;
-    position: absolute;
-    bottom: 60px;
-    left: 30px;
+    bottom: 98px !important;
+    right: 19px;
   }
   footer ul li span {
     font-size: 15px;

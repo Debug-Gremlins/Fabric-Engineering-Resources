@@ -63,7 +63,7 @@ header {
   transition: all linear 0.3s;
   color: wheat;
   text-decoration: none;
-  background-color: #707479 !important;
+  background-color: #707479dc !important;
 }
 
 .dropdown-item {
@@ -74,7 +74,7 @@ header {
 .dropdown-item:hover {
   color: wheat;
   text-decoration: none;
-  background-color: #707479 !important;
+  background-color: #70747983 !important;
 }
 
 .nav-link {
