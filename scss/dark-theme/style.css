@@ -30,6 +30,44 @@ body {
 
 /* Universal CSS */
 /* Overlay Button Starts */
+/*Font Controlling */
+.overlaybttn a,
+.day-text,
+.vct h1,
+.vct2 h1,
+.vct3 h1,
+.vct4 h1,
+.counter-area h1,
+.section-title h1,
+h2,
+.bus-route h2 {
+  font-family: "Pacifico";
+}
+
+.developedBy h5,
+.developedBy p {
+  font-family: "Pacifico";
+}
+
+footer ul li span,
+h4,
+.cpy-rgt {
+  font-family: "Pacifico";
+}
+
+.day-message,
+.btn a,
+h5 {
+  font-family: "Courgette";
+}
+
+.counter-area p,
+section table {
+  font-family: "Poppins";
+}
+
+/*Font Controlling */
+
 .overlaybttn {
   margin: 30px 0px;
   display: -webkit-box;
@@ -47,7 +85,7 @@ body {
 
 .overlaybttn a {
   color: white;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   display: inline-block;
   text-decoration: none;
   padding: 10px 10px;
@@ -78,13 +116,13 @@ body {
 /* Day Section Starts */
 .day-text {
   margin-top: 170px;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
 }
 
 .day-message {
   color: wheat;
   font-size: 40px;
-  font-family: Courgette;
+  /* font-family: Courgette; */
 }
 
 .date {
@@ -100,7 +138,7 @@ body {
 
 .typer h1 {
   color: #e0245e;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
 }
 
 /* Typer Section Ends */
@@ -227,7 +265,7 @@ body {
 .banner {
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/banner.png);
+  background-image: url();
   background-size: cover;
   background-attachment: fixed;
 }
@@ -254,7 +292,7 @@ body {
 }
 
 .counter-area h1 {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   font-size: 30px;
   display: inline-table;
   color: #17bf63;
@@ -265,7 +303,7 @@ body {
 }
 
 .counter-area p {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   color: #794bc4;
   font-size: 20px;
 }
@@ -287,6 +325,7 @@ body {
   font-family: Poppins;
   color: #e4eaf0;
   padding-bottom: 20px;
+  font-weight: 400;
 }
 
 .pre-con-btn a {
@@ -376,7 +415,7 @@ body {
 }
 
 .section-title h1 {
-  font-family: "Pacifico";
+  /* font-family: "Pacifico"; */
   font-weight: 900;
   color: #d0f743;
   font-size: 26px;
@@ -384,7 +423,7 @@ body {
 }
 
 h2 {
-  font-family: "Pacifico";
+  /* font-family: "Pacifico"; */
   font-weight: 900;
   color: #17bf63;
   font-size: 26px;
@@ -483,7 +522,7 @@ section table tr td:nth-child(3) {
 }
 
 .bus-route h2 {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   color: #e0245e;
 }
 
@@ -663,19 +702,19 @@ footer .overlaybttn {
 
 h4 {
   color: #e0245e;
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
 }
 
 h5 {
   color: #e0245e;
-  font-family: Courgette;
+  /* font-family: Courgette; */
 }
 
 .cpy-rgt {
-  font-family: Pacifico;
+  /* font-family: Pacifico; */
   font-size: 20px;
   font-weight: 400;
-  padding: 20px 0px 0px;
+  padding: 20px 0px 10px;
 }
 
 .cpy-rgt span a {
@@ -849,7 +888,7 @@ h5 {
     font-size: 14px;
   }
   .banner-overlay {
-    padding: 100px 0px;
+    padding: 100px 15px;
     width: 100%;
   }
   .dev-icon {
@@ -900,7 +939,7 @@ h5 {
     font-size: 20px;
   }
   .day-text {
-    margin-top: 117px;
+    margin-top: 130px;
   }
   header {
     padding: 30px 0px 40px !important;
@@ -1012,6 +1051,9 @@ h5 {
   .developedBy p {
     padding: 18px 18px 0px;
     font-size: 14px;
+  }
+  .typer {
+    padding: 30px 0px 10px;
   }
 }
 
