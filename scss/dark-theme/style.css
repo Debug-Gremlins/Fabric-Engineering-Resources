@@ -138,7 +138,7 @@ section table {
 
 .typer h1 {
   color: #e0245e;
-  /* font-family: Pacifico; */
+  font-family: Pacifico;
 }
 
 /* Typer Section Ends */
@@ -1008,11 +1008,8 @@ h5 {
   }
   footer .overlaybttn {
     position: absolute;
-    bottom: 160px !important;
     right: 0px;
-    position: absolute;
     bottom: 60px;
-    left: 30px;
   }
   footer ul li span {
     font-size: 18px;
