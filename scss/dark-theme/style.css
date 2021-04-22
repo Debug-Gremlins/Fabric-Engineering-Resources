@@ -492,6 +492,8 @@ section table tr td:nth-child(3) {
   border: 2px solid #d0f743;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  font-family: Lobster Two;
+  font-weight: 600;
 }
 .link a {
   width: 100%;
@@ -669,7 +671,7 @@ section table tr td:nth-child(3) {
 
 .developedBy h1 {
   color: #e0245e;
-  font-family: Pacifico;
+  font-family: Lobster Two;
 }
 
 .developedBy p {
@@ -1163,30 +1165,36 @@ h5 {
     border-bottom-right-radius: 15px;
   } */
 
-  .ct table tr td:nth-child(1) {
+  .ct table tr td:nth-child(1),
+  .ct table tr th:nth-child(1) {
     border-left: 2px solid whitesmoke;
     border-bottom: 2px solid whitesmoke;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  .ct table tr td:nth-child(2) {
+  .ct table tr td:nth-child(2),
+  .ct table tr th:nth-child(2) {
     border-right: 2px solid whitesmoke;
     border-bottom: 2px solid whitesmoke;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-  .ct table tr td:nth-child(3) {
+  .ct table tr td:nth-child(3),
+  .ct table tr th:nth-child(3) {
     border-bottom: 2px solid whitesmoke;
     border-top-left-radius: 15px;
     border-left: 2px solid whitesmoke;
     border-bottom-right-radius: 15px;
   }
+
   .ct .section-title {
     padding: 0px;
   }
 
   .ct .section-title h1 {
     border: none;
+    border-bottom: 2px solid #baebf7;
+    border-top: 2px solid #baebf7;
     font-size: 25px !important;
   }
 }
