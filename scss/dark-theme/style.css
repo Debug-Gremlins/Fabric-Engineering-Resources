@@ -554,11 +554,41 @@ section table tr td:nth-child(3) {
   text-decoration: none;
   color: wheat;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 10px;
-  margin: 8px 0px;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  font-size: 16px;
+}
+
+.sylb .btn {
+  margin: 5px 0px;
+}
+
+.sylb section table tr {
+  /* display: -webkit-box; */
+  display: -ms-flexbox;
+  /* display: flex; */
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.sylb section table tr td {
+  padding: 20px 5px;
+  width: 50%;
+}
+
+.sylb table tr td {
+  justify-content: space-between;
+  padding: 10px;
+  /* border-style: none; */
+  font-weight: 400;
+  height: auto;
+  /* border-color: #fdfdfd61; */
 }
 
 /* Syllabus Section Ends */
@@ -929,6 +959,22 @@ h5 {
   .dev-icon {
     margin: 150px 0px 50px;
   }
+  .sylb table tr td {
+    padding: 20px 5px;
+    width: 50%;
+  }
+  .sylb table tr td {
+    padding: 10px;
+    /* border-style: none; */
+    font-weight: 400;
+    height: auto;
+    /* border-color: #fdfdfd61; */
+  }
+  .sylb table tr {
+    align-items: center;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1196,6 +1242,25 @@ h5 {
     border-bottom: 2px solid #baebf7;
     border-top: 2px solid #baebf7;
     font-size: 25px !important;
+  }
+
+  .sylb table tr td:first-child,
+  section table tr td:nth-child(2) {
+    width: 100% !important;
+  }
+  .sylb .section-title {
+    width: 100%;
+    padding: 10px 0px 40px;
+    font-size: 48px;
+    margin-top: 100px;
+  }
+
+  .sylb h2 {
+    font-family: Lobster Two;
+    font-weight: 900;
+    color: #e0245e;
+    font-size: 26px;
+    font-weight: 400;
   }
 }
 
