@@ -30,6 +30,20 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(61, 61, 59);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(158, 158, 175);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(145, 145, 151);  /* creates padding around scroll thumb */
+}
+
 /* Universal CSS */
 /* Overlay Button Starts */
 /*Font Controlling */
@@ -606,7 +620,9 @@ section table tr td:nth-child(3) {
 }
 
 .bus-route img {
+  margin-top: 10px;
   max-width: 100%;
+  border-radius: 15px;
 }
 
 .bus1,
@@ -614,6 +630,10 @@ section table tr td:nth-child(3) {
 .bus3,
 .bus4 {
   margin: 0;
+}
+
+.bus-route .card {
+  padding: 60px;
 }
 
 /* Bus Section Ends */
@@ -1303,6 +1323,9 @@ h5 {
   }
   .dev-card {
     margin-top: 20px;
+  }
+  .bus-route .card {
+    padding: 30px 10px 50px;
   }
 }
 
