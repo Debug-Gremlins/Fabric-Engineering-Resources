@@ -1350,4 +1350,7 @@ footer .nav-link:hover {
   .bus-route .card {
     padding: 30px 10px 50px;
   }
+  .vct img {
+  max-width: 100%;
+}
 }

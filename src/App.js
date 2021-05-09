@@ -10,6 +10,7 @@ import Math from "./MathPage";
 import Ntf from "./NtfPage";
 import Physics from "./PhysicsPage";
 import AccessoriesPage from "./AccessoriesPage";
+import Footer from '../src/components/includes/Footer'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/physics" component={Physics} />
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </div>
   );
 }
