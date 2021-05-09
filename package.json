@@ -2,7 +2,7 @@
   "homepage": "https://debug-gremlins.github.io/Fabric-Engineering-Resource",
   "name": "fabric-engineering-resource",
   "author": "Arnob Mahmud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
