@@ -108,7 +108,8 @@ function Developer() {
                     <div className="col-lg-6 col-md-6 col-sm-12">
                       <a
                         href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/blob/master/LICENSE"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img
                           src="https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61"
@@ -119,11 +120,27 @@ function Developer() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                       <a
-                        href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/"
-                        target="_blank" rel="noreferrer"
+                        href="https://scrutinizer-ci.com/g/Debug-Gremlins/Fabric-Engineering-Resource/"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img
                           src="https://img.shields.io/scrutinizer/quality/g/Debug-Gremlins/Fabric-Engineering-Resource?color=green&label=Code%20Quality%20x%2F10&logo=Scrutinizer%20CI&logoColor=e0e0e0&style=plastic"
+                          alt="cq"
+                          srcSet
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row text-center justify-content-between">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <a
+                        href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/blob/master/README.md"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resource?color=lightyellow&label=Deployed&logo=npm&logoColor=yellow&style=plastic"
                           alt="cq"
                           srcSet
                         />
