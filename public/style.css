@@ -661,6 +661,10 @@ section table tr td:nth-child(3) {
   max-width: 100%;
 }
 
+.btn a{
+  color: #17bf63;
+}
+
 .rot_link:hover {
   opacity: 0.5;
 }
@@ -758,8 +762,6 @@ section table tr td:nth-child(3) {
   font-family: Pacifico;
 }
 
-.dev-card {
-}
 /***************************** Developer.html ****************************** */
 /* Footer Section Starts */
 footer {
