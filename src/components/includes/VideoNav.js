@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Bgvideo from "../videos/180626_12_Seocho-Dong_23.mp4";
+import Bgimg from "../../assets/topbnrbg.jpg";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
@@ -8,24 +8,7 @@ class VideoPart extends Component {
     return (
       <div>
         <div className="top-banner">
-          <video
-            muted
-            autoPlay
-            loop
-            // style={{
-            //   position: "absolute",
-            //   width: "100%",
-            //   zIndex: "-1",
-            //   height: "100%",
-            //   objectFit: "cover",
-            //   left: "50%",
-            //   top: "50%",
-            //   transform: "translate(-50%,-50%)",
-            // }
-            // }
-          >
-            <source src={Bgvideo} type="video/mp4"></source>
-          </video>
+          <img className="bgimg" src={Bgimg} alt="" srcSet />
           <header>
             <div className="container">
               <nav className="navbar navbar-expand-lg">

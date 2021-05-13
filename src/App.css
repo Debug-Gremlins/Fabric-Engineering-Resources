@@ -139,10 +139,10 @@ section table {
 /***************************** Index.html ******************************** */
 
 .top-banner {
-  background-color: #0b0b0b93;
+  background-color: #0b0b0bc2;
   height: 100vh;
 }
-.top-banner video {
+.top-banner .bgimg {
   position: absolute;
   width: 100%;
   z-index: -1;
@@ -155,7 +155,7 @@ section table {
 
 .overlay-details {
   text-align: center;
-  padding: 25% 0px;
+  padding: 40vh 0px;
 }
 
 .overlay-details h1 {
@@ -166,7 +166,7 @@ section table {
 
 .overlay-details p {
   padding-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 /* Vecctor Section Starts */
 .vct {
@@ -1075,12 +1075,14 @@ footer .rotating {
   header {
     padding: 40px 0px;
   }
+
+  .top-banner {
+    background-color: #0b0b0bc2;
+    height: 100vh;
+  }
 }
 
 @media (max-width: 991px) {
-  body {
-    padding: 10px 40px;
-  }
   .foot_bg img {
     max-width: 100% !important;
   }
@@ -1108,18 +1110,12 @@ footer .rotating {
   }
   .overlay-details {
     text-align: center;
-    padding: 25% 0px;
+    padding: 20vh 0px;
     transform: translate(0%, 20%);
   }
   .overlay-details p {
     padding-top: 15px;
     font-size: 22px;
-  }
-  .top-banner {
-    background-color: initial;
-  }
-  .banner {
-    border-radius: 25px;
   }
 }
 
@@ -1153,7 +1149,6 @@ footer .rotating {
 
 @media (max-width: 599px) {
   .banner {
-    border-radius: 15px;
     background-position: bottom;
     width: 100%;
   }
@@ -1357,14 +1352,17 @@ footer .rotating {
   }
   .overlay-details {
     text-align: center;
-    transform: translate(0%, 10%);
-  }
-  .top-banner {
-    background-color: #0b0b0b93;
+    padding: 5vh 0;
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     text-align: center;
     background-color: #16443eda !important;
+  }
+  @media (max-width: 400px) {
+    .overlay-details {
+      text-align: center;
+      padding: 7vh 0;
+    }
   }
 }
