@@ -1,6 +1,5 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import NavigationBar from "./components/includes/NavigationBar";
 import HomePage from "./pages/HomePage";
 import SyllabusPage from "./pages/SyllabusPage";
 import BCE from "./pages/BCEpage";
@@ -15,7 +14,6 @@ import Footer from "../src/components/includes/Footer";
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/syllabus" component={SyllabusPage} />

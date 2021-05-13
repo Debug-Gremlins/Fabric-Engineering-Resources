@@ -1,12 +1,10 @@
 header {
   background-color: #16443eda;
   padding: 50px 0px 40px;
-  border-bottom: 2px solid #c5d7bd;
   position: fixed;
   top: 0px;
   right: 0;
   width: 100%;
-  border-bottom: 1px solid #3f3e3e;
   z-index: 99;
 }
 
@@ -17,16 +15,19 @@ header {
 .nav-item a {
   font-weight: 500;
   font-size: 20px;
-  color: wheat;
+  color: rgb(255, 255, 255);
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
   text-align: center;
-  background-color: #16443eda !important;
+  /* background-color: #16443eda !important; */
+  background-color: rgba(66, 64, 60, 0.301);
   font-family: inherit;
+  border: none;
   margin: 0;
 }
+
 
 .dropdown-content {
   display: none;
@@ -72,9 +73,9 @@ header {
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid #fff9b0;
   cursor: pointer;
   color: #c5d7bd;
+  border-bottom: 2px solid #8d6a6a;
 }
 
 .navbar-brand {

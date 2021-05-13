@@ -2,7 +2,7 @@
   "homepage": "https://debug-gremlins.github.io/Fabric-Engineering-Resource/",
   "name": "fabric-engineering-resource",
   "author": "Arnob Mahmud",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
