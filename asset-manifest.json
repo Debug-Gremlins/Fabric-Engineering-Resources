@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Fabric-Engineering-Resource/static/css/main.ae558d4a.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.b67bdf8d.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.b67bdf8d.chunk.js.map",
+    "main.css": "/Fabric-Engineering-Resource/static/css/main.1f60d4b9.chunk.css",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.23f69486.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.23f69486.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
     "static/js/2.5c675c17.chunk.js": "/Fabric-Engineering-Resource/static/js/2.5c675c17.chunk.js",
     "static/js/2.5c675c17.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.5c675c17.chunk.js.map",
     "index.html": "/Fabric-Engineering-Resource/index.html",
-    "static/css/main.ae558d4a.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.ae558d4a.chunk.css.map",
+    "static/css/main.1f60d4b9.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.1f60d4b9.chunk.css.map",
     "static/js/2.5c675c17.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.5c675c17.chunk.js.LICENSE.txt",
     "static/media/Azimpur Route.92127732.png": "/Fabric-Engineering-Resource/static/media/Azimpur Route.92127732.png",
     "static/media/Jatrabari Route.2f280d4d.png": "/Fabric-Engineering-Resource/static/media/Jatrabari Route.2f280d4d.png",
     "static/media/Mirpur Route.796ff2bb.png": "/Fabric-Engineering-Resource/static/media/Mirpur Route.796ff2bb.png",
     "static/media/Uttara Route.358bca42.png": "/Fabric-Engineering-Resource/static/media/Uttara Route.358bca42.png",
-    "static/media/App.css": "/Fabric-Engineering-Resource/static/media/topbnrbg.1856884e.jpg",
+    "static/media/App.css": "/Fabric-Engineering-Resource/static/media/topbnrbg.15c61e2b.jpg",
     "static/media/developer.ff2c13e2.png": "/Fabric-Engineering-Resource/static/media/developer.ff2c13e2.png",
     "static/media/exs.266a8189.png": "/Fabric-Engineering-Resource/static/media/exs.266a8189.png",
     "static/media/footer_bg.d6f1c4da.png": "/Fabric-Engineering-Resource/static/media/footer_bg.d6f1c4da.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.488d21d2.js",
     "static/js/2.5c675c17.chunk.js",
-    "static/css/main.ae558d4a.chunk.css",
-    "static/js/main.b67bdf8d.chunk.js"
+    "static/css/main.1f60d4b9.chunk.css",
+    "static/js/main.23f69486.chunk.js"
   ]
 }
