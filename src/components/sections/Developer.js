@@ -103,7 +103,7 @@ function Developer() {
                 </div>
               </div>
               <div className="card">
-                <h3>CODE &nbsp; Analysis</h3>
+                <h3>Code Analysis</h3>
                 <div className="row text-center justify-content-between shield">
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <a

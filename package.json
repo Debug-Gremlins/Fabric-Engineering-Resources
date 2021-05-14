@@ -2,7 +2,7 @@
   "homepage": "https://debug-gremlins.github.io/Fabric-Engineering-Resource/",
   "name": "fabric-engineering-resource",
   "author": "Arnob Mahmud",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -17,6 +17,7 @@
     "react-scripts": "4.0.3",
     "react-table": "^7.7.0",
     "styled-component": "^2.8.0",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
