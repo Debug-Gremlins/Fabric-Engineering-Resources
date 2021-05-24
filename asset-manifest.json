@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Fabric-Engineering-Resource/static/css/main.310f03aa.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.c0a5746b.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.c0a5746b.chunk.js.map",
+    "main.css": "/Fabric-Engineering-Resource/static/css/main.76f08bc4.chunk.css",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.ec2d954e.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.ec2d954e.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
-    "static/js/2.5052aae6.chunk.js": "/Fabric-Engineering-Resource/static/js/2.5052aae6.chunk.js",
-    "static/js/2.5052aae6.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.5052aae6.chunk.js.map",
+    "static/js/2.b3db5483.chunk.js": "/Fabric-Engineering-Resource/static/js/2.b3db5483.chunk.js",
+    "static/js/2.b3db5483.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.b3db5483.chunk.js.map",
     "index.html": "/Fabric-Engineering-Resource/index.html",
-    "static/css/main.310f03aa.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.310f03aa.chunk.css.map",
-    "static/js/2.5052aae6.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.5052aae6.chunk.js.LICENSE.txt",
+    "static/css/main.76f08bc4.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.76f08bc4.chunk.css.map",
+    "static/js/2.b3db5483.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.b3db5483.chunk.js.LICENSE.txt",
     "static/media/Azimpur Route.92127732.png": "/Fabric-Engineering-Resource/static/media/Azimpur Route.92127732.png",
     "static/media/Jatrabari Route.2f280d4d.png": "/Fabric-Engineering-Resource/static/media/Jatrabari Route.2f280d4d.png",
     "static/media/Mirpur Route.796ff2bb.png": "/Fabric-Engineering-Resource/static/media/Mirpur Route.796ff2bb.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.488d21d2.js",
-    "static/js/2.5052aae6.chunk.js",
-    "static/css/main.310f03aa.chunk.css",
-    "static/js/main.c0a5746b.chunk.js"
+    "static/js/2.b3db5483.chunk.js",
+    "static/css/main.76f08bc4.chunk.css",
+    "static/js/main.ec2d954e.chunk.js"
   ]
 }
