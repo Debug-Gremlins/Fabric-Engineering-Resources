@@ -252,10 +252,9 @@ h5 {
   color: #e0245e;
   padding: 15px 20px;
   border-radius: 25px;
-  border: 1px solid #e0245e;
+  border: 2px solid #e0245e;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
-  font-weight: 600;
 }
 
 .pre-con-btn :hover {

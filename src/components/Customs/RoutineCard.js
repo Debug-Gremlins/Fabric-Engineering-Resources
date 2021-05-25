@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { FcDownRight } from "react-icons/fc";
+import { IconContext } from "react-icons";
 
 class RoutineCard extends Component {
   render() {
@@ -11,7 +13,9 @@ class RoutineCard extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {this.props.command}
+            <IconContext.Provider value={{ size: "25" }}>
+              {this.props.command} <FcDownRight />
+            </IconContext.Provider>
           </a>
         </div>
       </div>

@@ -2,6 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/logo.png";
+import {
+  FcHome,
+  FcIdea,
+  FcRules,
+  FcMindMap,
+  FcSurvey,
+  FcElectronics,
+} from "react-icons/fc";
+import { RiMenu2Line } from "react-icons/ri";
+import { IconContext } from "react-icons";
+// import { MdDeveloperBoard } from "react-icons/md";
 
 function NavigationBar() {
   return (
@@ -18,7 +29,9 @@ function NavigationBar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon" />
+              <IconContext.Provider value={{ size: "30", color: "#cccff5" }}>
+                <RiMenu2Line />
+              </IconContext.Provider>
             </button>
             <div
               className="collapse navbar-collapse justify-content-between"
@@ -27,7 +40,9 @@ function NavigationBar() {
               <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
-                    Home
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcHome /> Home
+                    </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
@@ -39,7 +54,9 @@ function NavigationBar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Resources
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcIdea /> Resources
+                    </IconContext.Provider>
                   </Link>
                   <ul
                     className="dropdown-menu"
@@ -74,24 +91,32 @@ function NavigationBar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/syllabus">
-                    Syllabus
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcRules /> Syllabus
+                    </IconContext.Provider>
                   </Link>
                 </li>
               </ul>
               <ul className="navbar-nav mb-2 mb-lg-0 mr-auto list-unstyled  justify-content-between">
                 <li className="nav-item">
                   <Link className="nav-link" to="/accessories">
-                    Accessories
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcMindMap /> Accessories
+                    </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/examinfo">
-                    Exam Info
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcSurvey /> Exam Info
+                    </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/developer">
-                    Developer
+                    <IconContext.Provider value={{ size: "25" }}>
+                      <FcElectronics /> Developer
+                    </IconContext.Provider>
                   </Link>
                 </li>
               </ul>

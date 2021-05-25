@@ -1,5 +1,7 @@
 import React from "react";
 import Bannerimg from "../../assets/banner.png";
+import { FcBinoculars } from "react-icons/fc";
+import { IconContext } from "react-icons";
 
 function Banner() {
   return (
@@ -25,7 +27,9 @@ function Banner() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Click Here
+                  <IconContext.Provider value={{ size: "25" }}>
+                    Learn More <FcBinoculars />
+                  </IconContext.Provider>
                 </a>
               </div>
             </div>

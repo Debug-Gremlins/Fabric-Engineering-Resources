@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./UpperBanner.css";
+import {FcBinoculars} from "react-icons/fc"
+import { IconContext } from "react-icons";
 
 class UpperBanner extends Component {
   render() {
@@ -42,7 +44,9 @@ class UpperBanner extends Component {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Learn More
+                        <IconContext.Provider value={{ size: "25" }}>
+                          Learn More <FcBinoculars />
+                        </IconContext.Provider>
                       </a>
                     </div>
                   </div>

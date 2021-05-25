@@ -107,7 +107,7 @@ header {
   -webkit-transform: translateZ(0) scale(1, 1);
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
@@ -116,7 +116,7 @@ header {
   background-position: center;
   background-size: 100%;
   background-image: url(../../assets//hamburger.png);
-}
+} */
 
 
 @media all and (min-width: 992px) {
