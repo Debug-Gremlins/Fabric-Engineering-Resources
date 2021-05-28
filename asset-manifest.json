@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/Fabric-Engineering-Resource/static/css/main.68d8e7d3.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.e256268a.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.e256268a.chunk.js.map",
+    "main.css": "/Fabric-Engineering-Resource/static/css/main.a1822b4d.chunk.css",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.f14e791d.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.f14e791d.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
-    "static/js/2.768cd5f0.chunk.js": "/Fabric-Engineering-Resource/static/js/2.768cd5f0.chunk.js",
-    "static/js/2.768cd5f0.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.768cd5f0.chunk.js.map",
+    "static/js/2.f453f780.chunk.js": "/Fabric-Engineering-Resource/static/js/2.f453f780.chunk.js",
+    "static/js/2.f453f780.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.f453f780.chunk.js.map",
     "index.html": "/Fabric-Engineering-Resource/index.html",
-    "static/css/main.68d8e7d3.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.68d8e7d3.chunk.css.map",
-    "static/js/2.768cd5f0.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.768cd5f0.chunk.js.LICENSE.txt",
+    "static/css/main.a1822b4d.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.a1822b4d.chunk.css.map",
+    "static/js/2.f453f780.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.f453f780.chunk.js.LICENSE.txt",
     "static/media/Azimpur Route.92127732.png": "/Fabric-Engineering-Resource/static/media/Azimpur Route.92127732.png",
     "static/media/Jatrabari Route.2f280d4d.png": "/Fabric-Engineering-Resource/static/media/Jatrabari Route.2f280d4d.png",
     "static/media/Mirpur Route.796ff2bb.png": "/Fabric-Engineering-Resource/static/media/Mirpur Route.796ff2bb.png",
     "static/media/Uttara Route.358bca42.png": "/Fabric-Engineering-Resource/static/media/Uttara Route.358bca42.png",
-    "static/media/App.css": "/Fabric-Engineering-Resource/static/media/banner.ef0be1d4.png",
+    "static/media/banner.ef0be1d4.png": "/Fabric-Engineering-Resource/static/media/banner.ef0be1d4.png",
     "static/media/data.641499dd.png": "/Fabric-Engineering-Resource/static/media/data.641499dd.png",
     "static/media/developer.ff2c13e2.png": "/Fabric-Engineering-Resource/static/media/developer.ff2c13e2.png",
     "static/media/exs.266a8189.png": "/Fabric-Engineering-Resource/static/media/exs.266a8189.png",
     "static/media/icon.c0383717.png": "/Fabric-Engineering-Resource/static/media/icon.c0383717.png",
     "static/media/logo.00502eee.png": "/Fabric-Engineering-Resource/static/media/logo.00502eee.png",
-    "static/media/UpperBanner.css": "/Fabric-Engineering-Resource/static/media/topbnrbg.15c61e2b.jpg"
+    "static/media/topbnrbg.15c61e2b.jpg": "/Fabric-Engineering-Resource/static/media/topbnrbg.15c61e2b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.488d21d2.js",
-    "static/js/2.768cd5f0.chunk.js",
-    "static/css/main.68d8e7d3.chunk.css",
-    "static/js/main.e256268a.chunk.js"
+    "static/js/2.f453f780.chunk.js",
+    "static/css/main.a1822b4d.chunk.css",
+    "static/js/main.f14e791d.chunk.js"
   ]
 }
