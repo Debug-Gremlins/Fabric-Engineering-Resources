@@ -115,4 +115,12 @@ const SyllabusArea = styled.div`
       font-size: 18px;
     }
   }
+
+  @media (max-width: 599px) {
+    .card {
+      background-color: #ffffb299;
+      align-items: stretch;
+      padding: 30px;
+    }
+  }
 `;

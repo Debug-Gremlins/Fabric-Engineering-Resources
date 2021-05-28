@@ -7,7 +7,7 @@ export const CourseTitle = styled.div`
   }
   .section-title {
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-size: 48px;
   }
 

@@ -79,7 +79,7 @@ function Footer() {
             </span>{" "}
             All Rights Reserved
           </div>
-          <OverlayButton>
+          <OverlayButton className="footerOverlay">
             <a id="bottombce" href="#top">
               <i className="fa fa-arrow-circle-up" aria-hidden="true" />
               <span>Top</span>
@@ -95,7 +95,7 @@ export default Footer;
 
 const FooterArea = styled.div`
   text-align: center;
-  padding: 70px 0px 0px;
+  padding: 70px 0px 10px;
   background: #efc7c7;
   position: relative;
   h3 {
@@ -145,8 +145,11 @@ const FooterArea = styled.div`
     animation: rotating 7s linear infinite;
   }
 
-  .foot_bg img {
-    max-width: 100%;
+  .footerOverlay{
+    margin: 0;
+    bottom: 60px;
+    right: 40px;
+    position :absolute
   }
   .nav-link {
     font-style: initial;
@@ -190,7 +193,7 @@ const FooterArea = styled.div`
   }
   @media (max-width: 767px) {
     .cpy-rgt {
-      font-size: 14px;
+      font-size: 12px;
     }
     position: relative;
     ul li span {
