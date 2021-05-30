@@ -2,9 +2,9 @@ import React from "react";
 import Devimg from "../../assets/developer.png";
 import styled from "styled-components";
 
-function Developer() {
+const Developer = () => {
   return (
-    <div>
+    <>
       <DevelopedBy>
         <div className="container">
           <div className="row justify-content-between align-items-end">
@@ -149,7 +149,7 @@ function Developer() {
           </div>
         </div>
       </DevelopedBy>
-    </div>
+    </>
   );
 }
 

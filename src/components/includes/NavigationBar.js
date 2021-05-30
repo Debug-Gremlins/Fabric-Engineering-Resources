@@ -13,9 +13,9 @@ import {
 import { IconContext } from "react-icons";
 import {GiArrowScope} from 'react-icons/gi'
 
-function NavigationBar() {
+const NavigationBar = () => {
   return (
-    <div>
+    <>
       <header>
         <nav className="navbar navbar-expand-lg">
           <div className="container">
@@ -127,7 +127,7 @@ function NavigationBar() {
           </div>
         </nav>
       </header>
-    </div>
+    </>
   );
 }
 

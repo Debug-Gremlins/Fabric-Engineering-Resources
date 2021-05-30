@@ -4,9 +4,9 @@ import Bannerimg from "../../assets/banner.png";
 import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
 
-function Banner() {
+const Banner = () => {
   return (
-    <div>
+    <>
       <BannerArea>
         <div className="container">
           <div className="row">
@@ -34,7 +34,7 @@ function Banner() {
           </div>
         </div>
       </BannerArea>
-    </div>
+    </>
   );
 }
 

@@ -6,9 +6,9 @@ import PurandhkBus from "../../assets/Jatrabari Route.png";
 import Card from "../widgets/BusCard";
 import styled from "styled-components";
 
-function BusRoute() {
+const BusRoute = () => {
   return (
-    <div>
+    <>
       <BusRouteSec id="bsr">
         <div className="container text-center">
           <div className="row">
@@ -27,7 +27,7 @@ function BusRoute() {
           </div>
         </div>
       </BusRouteSec>
-    </div>
+    </>
   );
 }
 

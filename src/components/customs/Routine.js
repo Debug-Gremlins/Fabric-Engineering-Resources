@@ -3,9 +3,9 @@ import Rotimg from "../../assets/exs.png";
 import RoutineCard from "../widgets/RoutineCard";
 import styled from "styled-components";
 
-function Routine() {
+const Routine = () => {
   return (
-    <div>
+    <>
       <RoutineArea>
         <div className="container">
           <div className="row align-items-center">
@@ -35,7 +35,7 @@ function Routine() {
           </div>
         </div>
       </RoutineArea>
-    </div>
+    </>
   );
 }
 

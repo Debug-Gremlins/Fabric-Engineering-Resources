@@ -127,7 +127,7 @@ const FooterArea = styled.div`
     opacity: 0.8;
   }
   .cpy-rgt {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px 0px;
     color: #15202b;

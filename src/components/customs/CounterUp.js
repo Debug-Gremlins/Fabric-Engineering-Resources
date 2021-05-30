@@ -4,9 +4,10 @@ import CustomCount from "../widgets/CouterComp";
 import { BiShieldAlt } from "react-icons/bi";
 import { FiSlack } from "react-icons/fi";
 import { ImBook } from "react-icons/im";
-function CounterUp() {
+
+const CounterUp = () => {
   return (
-    <div>
+    <>
       <CounterArea>
         <div className="container">
           <div className="row justify-content-center text-center align-items-center">
@@ -35,9 +36,9 @@ function CounterUp() {
           </div>
         </div>
       </CounterArea>
-    </div>
+    </>
   );
-}
+};
 
 export default CounterUp;
 

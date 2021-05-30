@@ -3,9 +3,9 @@ import DetailsDataI from "../widgets/DetailsCompI";
 import DetailsDataII from "../widgets/DetailsCompII";
 import styled from "styled-components";
 
-function Details() {
+const Details = () => {
   return (
-    <div>
+    <>
       <DetailsArea>
         <div className="container-fluid">
           <DetailsDataI
@@ -76,7 +76,7 @@ function Details() {
           />
         </div>
       </DetailsArea>
-    </div>
+    </>
   );
 }
 
