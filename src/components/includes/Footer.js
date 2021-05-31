@@ -234,32 +234,13 @@ const FooterArea = styled.div`
   .rotating {
     max-width: 70% !important;
   }
-  /* @-webkit-keyframes rotating {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
 
-  @keyframes rotating {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  } */
   @media (max-width: 991px) {
   }
   @media (max-width: 767px) {
-    padding: 50px 0px 10px;
+    padding: 20px 0px 10px;
     .cpy-rgt {
+      padding-top: 0px;
       font-size: 12px;
     }
     position: relative;
@@ -277,6 +258,9 @@ const FooterArea = styled.div`
     }
     .rotating {
       max-width: 40% !important;
+    }
+    .footerOverlay {
+      bottom: 100px;
     }
   }
 `;

@@ -5,8 +5,8 @@ export class ExamInfo extends Component {
   render() {
     return (
       <>
-       <AnnounceScreen />
-      </>
+        <AnnounceScreen />
+    </>
     );
   }
 }

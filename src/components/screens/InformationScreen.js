@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import announceImg from "../../assets/svg/bearie-partner.svg";
-import ScreenCardI from "../widgets/ScreenCardI";
-import {ScreenArea} from '../config/Palette'
+import ScreenCardII from "../widgets/ScreenCardII";
+import { ScreenArea } from "../config/Palette";
+import infoImg from "../../assets/balb.png";
 
-export class AnnounceScreen extends Component {
+export class InformationScreen extends Component {
   render() {
     return (
       <>
         <ScreenArea>
           <div className="container">
-            <ScreenCardI
-              imgPath={announceImg}
+            <ScreenCardII
+              imgPath={infoImg}
               title="CT & Term Exam Updates!"
               description="Get CT and Term related all updates here. Contents are coming
                   soon 🖤"
@@ -22,4 +22,4 @@ export class AnnounceScreen extends Component {
   }
 }
 
-export default AnnounceScreen;
+export default InformationScreen;

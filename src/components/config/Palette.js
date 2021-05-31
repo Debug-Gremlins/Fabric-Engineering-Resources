@@ -29,7 +29,7 @@ export const CourseTitle = styled.div`
   }
 
   table tr td {
-    font-family: 'Rubik';
+    font-family: "Rubik";
     color: #0b0b0b;
     padding: 10px;
     border-style: none;
@@ -170,5 +170,96 @@ export const OverlayButton = styled.div`
   a i,
   a span {
     font-size: 15px !important;
+  }
+`;
+
+export const ScreenArea = styled.div`
+  padding: 200px 0px 50px;
+  img {
+    max-width: 100%;
+    animation: updown 5s infinite;
+    /* animation: zoominoutsinglefeatured 1s infinite; */
+    /* animation: rotating 1s infinite; */
+  }
+  @keyframes updown {
+    0% {
+      transform: translateY(-5%);
+    }
+
+    50% {
+      transform: translateY(5%);
+    }
+
+    100% {
+      transform: translateY(-5%);
+    }
+  }
+  /* @keyframes zoominoutsinglefeatured {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  } */
+
+  /* @-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  } */
+  .card:nth-child(2) {
+    margin-left: 20px;
+  }
+  .content {
+    text-align: left;
+  }
+  h1 {
+    font-size: 30px;
+    color: brown;
+  }
+  p {
+    color: #010101;
+    font-size: 20px;
+  }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 180px 20px 50px;
+    .card::first-child {
+      margin-bottom: 10px;
+    }
+    .card:nth-child(2) {
+      margin-left: 0px;
+    }
+    h1 {
+      font-size: 28px;
+    }
   }
 `;
