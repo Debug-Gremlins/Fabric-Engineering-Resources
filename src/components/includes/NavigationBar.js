@@ -11,7 +11,7 @@ import {
   FcElectronics,
 } from "react-icons/fc";
 import { IconContext } from "react-icons";
-import {GiArrowScope} from 'react-icons/gi'
+import { GiArrowScope } from "react-icons/gi";
 
 const NavigationBar = () => {
   return (
@@ -105,9 +105,9 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/examinfo">
+                  <Link className="nav-link" to="/notice">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcSurvey /> Exam Info
+                      <FcSurvey /> Notice
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -129,6 +129,6 @@ const NavigationBar = () => {
       </header>
     </>
   );
-}
+};
 
 export default NavigationBar;

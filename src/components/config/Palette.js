@@ -177,9 +177,13 @@ export const ScreenArea = styled.div`
   padding: 200px 0px 50px;
   img {
     max-width: 100%;
-    animation: updown 5s infinite;
-    /* animation: zoominoutsinglefeatured 1s infinite; */
     /* animation: rotating 1s infinite; */
+  }
+  .effect1 {
+    animation: updown 5s infinite;
+  }
+  .effect2 {
+    animation: zoominoutsinglefeatured 3s infinite;
   }
   @keyframes updown {
     0% {
@@ -194,7 +198,7 @@ export const ScreenArea = styled.div`
       transform: translateY(-5%);
     }
   }
-  /* @keyframes zoominoutsinglefeatured {
+  @keyframes zoominoutsinglefeatured {
     0% {
       transform: scale(1, 1);
     }
@@ -204,7 +208,7 @@ export const ScreenArea = styled.div`
     100% {
       transform: scale(1, 1);
     }
-  } */
+  }
 
   /* @-webkit-keyframes rotating {
     from {
@@ -234,7 +238,7 @@ export const ScreenArea = styled.div`
     text-align: left;
   }
   h1 {
-    font-size: 30px;
+    /* font-size: 30px; */
     color: brown;
   }
   p {

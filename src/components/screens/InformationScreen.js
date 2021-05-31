@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ScreenCardII from "../widgets/ScreenCardII";
+import ScreenCardII from "../widgets/screencard/ScreenCardII";
 import { ScreenArea } from "../config/Palette";
 import infoImg from "../../assets/balb.png";
 

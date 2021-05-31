@@ -9,7 +9,7 @@ import Math from "./pages/MathPage";
 import Ntf from "./pages/NtfPage";
 import Physics from "./pages/PhysicsPage";
 import AccessoriesPage from "./pages/AccessoriesPage";
-import InfoPage from "./pages/ExamInfoPage";
+import Notice from "./pages/NoticePage";
 import DeveloperPage from "./pages/DeveloperPage";
 import Footer from "../src/components/includes/Footer";
 
@@ -26,7 +26,7 @@ function App() {
         <Route exact path="/ntf" component={Ntf} />
         <Route exact path="/physics" component={Physics} />
         <Route exact path="/syllabus" component={SyllabusPage} />
-        <Route exact path="/examinfo" component={InfoPage} />
+        <Route exact path="/notice" component={Notice} />
         <Route exact path="/developer" component={DeveloperPage} />
         <Redirect to="/" />
       </Switch>

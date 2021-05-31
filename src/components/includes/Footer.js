@@ -92,7 +92,7 @@ function Footer() {
                   </Link>
                 }
                 link5={
-                  <Link className="nav-link" to="/examinfo">
+                  <Link className="nav-link" to="/notice">
                     Term Updates
                   </Link>
                 }
@@ -114,7 +114,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Mail Me
+                    Mail
                   </a>
                 }
                 link3={

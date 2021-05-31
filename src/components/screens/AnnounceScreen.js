@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import announceImg from "../../assets/svg/bearie-partner.svg";
-import ScreenCardI from "../widgets/ScreenCardI";
+import ScreenCardI from "../widgets/screencard/ScreenCardI";
 import {ScreenArea} from '../config/Palette'
 
 export class AnnounceScreen extends Component {
