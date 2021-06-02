@@ -23,7 +23,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <span>Our Departmental Group : </span>
+                  <span> Our Departmental Group : </span>
                   <h3>
                     <a
                       href="https://www.facebook.com/groups/fabricmanufacturingengineering46/"
@@ -145,7 +145,7 @@ function Footer() {
           <OverlayButton className="footerOverlay">
             <a id="bottombce" href="#top">
               <i className="fa fa-arrow-circle-up" aria-hidden="true" />
-              <span>Top</span>
+              <span></span>
             </a>
           </OverlayButton>
         </div>
@@ -157,8 +157,9 @@ function Footer() {
 export default Footer;
 
 const FooterArea = styled.div`
+  font-family: Ubuntu;
   text-align: center;
-  padding: 70px 0px 10px;
+  padding: 90px 0px 10px;
   background: #efc7c7;
   position: relative;
   h3 {
@@ -178,6 +179,7 @@ const FooterArea = styled.div`
     text-align: left;
   }
   ul li {
+    line-height: 2;
     list-style-type: none;
   }
   ul li span {
@@ -238,7 +240,7 @@ const FooterArea = styled.div`
   @media (max-width: 991px) {
   }
   @media (max-width: 767px) {
-    padding: 20px 0px 10px;
+    padding: 50px 0px 10px;
     .cpy-rgt {
       padding-top: 0px;
       font-size: 12px;

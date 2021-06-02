@@ -36,7 +36,7 @@ const Banner = () => {
       </BannerArea>
     </>
   );
-}
+};
 
 export default Banner;
 
@@ -59,6 +59,33 @@ const BannerArea = styled.div`
     color: #e9dddd;
     font-family: Rubik;
     text-align: justify;
+  }
+  .btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid #17bf63;
+    background-color: transparent;
+    border-radius: 25px;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+  }
+
+  .btn a {
+    font-family: Ubuntu;
+    color: #17bf63;
+    text-decoration: none;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    font-weight: 400;
+  }
+
+  .btn:hover {
+    background-color: #17bf63;
+    border: 2px solid transparent;
+  }
+
+  .btn:hover a {
+    color: #15202b;
   }
   @media (max-width: 991px) {
     .banner-overlay {

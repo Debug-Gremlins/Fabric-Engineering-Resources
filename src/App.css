@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
 /* Universal CSS */
 * {
   padding: 0;
@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  font-family: Ubuntu;
+  font-family: DM Sans;
   background: #e7e7e7;
   color: #e4e4e4;
   overflow-x: hidden;
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 h2 {
   color: #0c253a;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h4 {
@@ -70,32 +70,22 @@ h5 {
   border: none;
 }
 .btn {
-  margin-top: 30px;
-  padding: 10px 20px;
-  border: 2px solid #17bf63;
-  background-color: transparent;
-  border-radius: 25px;
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-}
-
-.btn a {
-  font-family: Ubuntu;
-  color: #17bf63;
-  text-decoration: none;
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-  font-weight: 400;
-}
-
-.btn:hover {
-  background-color: #17bf63;
-  border: 2px solid transparent;
-}
-
-.btn:hover a {
-  color: #15202b;
-}
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid #0c253a;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all linear 0.3s;
+  }
+  .btn a {
+    color: #0c253a;
+  }
+  .btn:hover {
+    background-color: #0c253a;
+  }
+  .btn:hover a {
+    color: #a89f9f;
+  }
 
 @media (max-width: 767px) {
   .btn {

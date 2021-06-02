@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
-import bannerImg from "../../assets/topbnrbg.jpg";
+import bannerImg from "../../assets/topbnrbg2.png";
 
 class UpperBanner extends Component {
   render() {
@@ -27,8 +27,8 @@ class UpperBanner extends Component {
             </div>
             <div className="container">
               <div className="row justify-content-center">
-                <div className="col-xl-8 col-lg-9 col-md-9 col-sm-12 col-xsm-12">
-                  <div className="top-over-details-part text-center">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
+                  <div className="top-over-details-part text-left">
                     <h1>Fabric Engineering</h1>
                     <p>
                       Fabric Engineering is one of the basic textile engineering
@@ -71,9 +71,10 @@ const TopBannerArea = styled.div`
   position: relative;
   .top-bnr-overlay {
     height: inherit;
-    background-color: rgba(18, 20, 20, 0.603);
+    /* background-color: rgba(18, 20, 20, 0.603); */
   }
   .top-over-details-part {
+    width: 50%;
     padding: 250px 0px;
   }
 
@@ -84,9 +85,10 @@ const TopBannerArea = styled.div`
   }
 
   .top-over-details-part p {
+    line-height: 1.7;
     padding-top: 15px;
     font-size: 18px;
-    text-align: center;
+    color: #0c253a;
   }
   .home-shield {
     position: absolute;
@@ -95,21 +97,26 @@ const TopBannerArea = styled.div`
   }
 
   @media (max-width: 991px) {
+    .top-over-details-part {
+      width: 70%;
+      padding: 240px 0px 100px;
+    }
     .home-shield {
       position: absolute;
-      bottom: 55px;
+      bottom: 15px;
       right: 20px;
-    }
-    .top-over-details-part {
-      padding: 240px 0px 100px;
     }
   }
 
   @media (max-width: 767px) {
     .home-shield {
       position: absolute;
-      bottom: 40px;
+      bottom: 20px;
       right: 10px;
+    }
+    .top-over-details-part {
+      width: 100%;
+      padding: 180px 20px 120px;
     }
     .top-over-details-part h1 {
       font-size: 1.1 rem;
@@ -117,17 +124,12 @@ const TopBannerArea = styled.div`
     .top-over-details-part p {
       font-size: 1rem;
     }
-    .top-over-details-part {
-      padding: 185px 0px 120px;
-    }
     .top-over-details-part h1 {
       font-size: 30px;
     }
 
     .top-over-details-part p {
       font-size: 16px;
-      text-align: justify;
-      padding: 30px;
     }
   }
 `;

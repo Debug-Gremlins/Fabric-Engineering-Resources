@@ -78,12 +78,13 @@ const Details = () => {
       </DetailsArea>
     </>
   );
-}
+};
 
 export default Details;
 
 const DetailsArea = styled.div`
-  padding: 100px 0px;
+  font-family: Ubuntu;
+  padding: 0px;
   color: #121c25;
   h1 {
     font-family: Ubuntu;
@@ -95,6 +96,7 @@ const DetailsArea = styled.div`
     color: #0e161d;
     padding-bottom: 20px;
     font-weight: 400;
+    line-height: 1.7;
   }
   .pre-con-btn a {
     font-family: Ubuntu;
