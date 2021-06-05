@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export class Content extends Component {
   render() {
@@ -19,9 +20,7 @@ export class Content extends Component {
                   and powerful, actionable insights.
                 </p>
                 <div className="btn">
-                  <a href="" target="_blank" rel="noreferrer">
-                    Find Resources
-                  </a>
+                  <Link to="/">Find Resources</Link>
                 </div>
               </div>
             </div>

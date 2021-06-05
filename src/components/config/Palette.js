@@ -267,3 +267,27 @@ export const ScreenArea = styled.div`
     }
   }
 `;
+
+export const InfoArea = styled.div`
+  .content {
+    text-align: left;
+  }
+  h1 {
+    color: #0c253a;
+  }
+  p {
+    color: #093d68;
+    font-size: 22px;
+  }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 26px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+`;

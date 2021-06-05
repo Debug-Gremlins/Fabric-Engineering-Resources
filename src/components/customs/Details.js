@@ -98,21 +98,28 @@ const DetailsArea = styled.div`
     font-weight: 400;
     line-height: 1.7;
   }
-  .pre-con-btn a {
+
+  .btn {
     font-family: Ubuntu;
     text-decoration: none;
-    color: #e0245e;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 25px;
     border: 2px solid #e0245e;
     -webkit-transition: all linear 0.5s;
     transition: all linear 0.5s;
+    margin-top: 0px;
+  }
+  .btn a {
+    color: #e0245e;
   }
 
-  .pre-con-btn :hover {
+  .btn:hover {
     background-color: #e0245e;
-    color: #e9dddd;
     border: 2px solid transparent;
+  }
+
+  .btn:hover a {
+    color: #e9dddd;
   }
 
   .details_content hr {

@@ -2,6 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import data from "../../../json/ntf-data.json";
 import { Component } from "react";
+import NTFInfo from "../../contact/NTFInfo";
 
 class NTFTable extends Component {
   render() {
@@ -20,7 +21,7 @@ class NTFTable extends Component {
                     <span>Bottom</span>
                   </a>
                 </OverlayButton>
-               
+
                 <table>
                   <tbody>
                     <tr>
@@ -59,6 +60,7 @@ class NTFTable extends Component {
             </div>
           </div>
         </CourseTitle>
+        <NTFInfo />
       </div>
     );
   }

@@ -11,9 +11,8 @@ export class InformationScreen extends Component {
           <div className="container">
             <ScreenCardII
               imgPath={infoImg}
-              title="CT & Term Exam Updates!"
-              description="Get CT and Term related all updates here. Contents are coming
-                  soon 🖤"
+              title="Searching Syllabus?"
+              description="Not added yet!"
             />
           </div>
         </ScreenArea>

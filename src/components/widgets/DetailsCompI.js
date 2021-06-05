@@ -9,7 +9,7 @@ class DetailsCompI extends Component {
             <h1>{this.props.detailsTitle}</h1>
             <hr />
             <p>{this.props.detailsParagraph}</p>
-            <div className="pre-con-btn">
+            <div className="btn">
               <a
                 href={this.props.detailsLink}
                 target="_blank"

@@ -2,6 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/chemistry-data.json";
+import ChemistryInfo from "../../contact/ChemistryInfo";
 
 class ChemistryTable extends Component {
   render() {
@@ -59,6 +60,7 @@ class ChemistryTable extends Component {
             </div>
           </div>
         </CourseTitle>
+        <ChemistryInfo />
       </div>
     );
   }

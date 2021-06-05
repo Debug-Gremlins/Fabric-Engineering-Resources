@@ -2,6 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/math-data.json";
+import MathInfo from "../../contact/MathInfo";
 
 class MATHTable extends Component {
   render() {
@@ -59,6 +60,7 @@ class MATHTable extends Component {
             </div>
           </div>
         </CourseTitle>
+        <MathInfo />
       </div>
     );
   }
