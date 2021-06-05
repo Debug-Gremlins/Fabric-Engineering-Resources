@@ -80,7 +80,7 @@
     {
         "Date": "04 Feb, 2021",
         "Lecturer": "Harun Sir",
-        "DiscussedTopics": "Fluid Mechanics (Part 1)",
+        "DiscussedTopics": "Fluid Mechanics(I)",
         "DriveLink": "https://drive.google.com/file/d/1lV6KuPJisxUnjSUAsCtSlAqkb2HjVv18/view"
     },
     {
@@ -91,9 +91,21 @@
     },
     {
         "Date": "18 Feb, 2021",
+        "Lecturer": "Harun Sir",
+        "DiscussedTopics": "Fluid Mechanics(II)",
+        "DriveLink": "https://drive.google.com/file/d/15AQ4ttXz6jQza0I5ppdJpu3s3x1pzRrr/view"
+    },
+    {
+        "Date": "25 Feb, 2021",
         "Lecturer": "Hedayet Sir",
         "DiscussedTopics": "Diffraction(III)",
         "DriveLink": "https://drive.google.com/file/d/1he05cCZNH2PqbW1_nCGcvvClD-j8UmIp/view"
+    },
+    {
+        "Date": "18 Mar, 2021",
+        "Lecturer": "Harun Sir",
+        "DiscussedTopics": "Viscosity",
+        "DriveLink": "https: //drive.google.com/file/d/1leuEyH9RQke61CevwrRLOqbg0eri7CX7/view"
     },
     {
         "Date": "24 Mar, 2021",
