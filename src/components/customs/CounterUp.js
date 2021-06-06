@@ -48,6 +48,7 @@ const CounterArea = styled.div`
   .card {
     padding: 100px 40px;
     background-color: #ffffb299;
+    align-items: center;
   }
   h1 {
     font-size: 30px;

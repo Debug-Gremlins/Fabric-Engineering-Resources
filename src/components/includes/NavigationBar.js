@@ -64,30 +64,15 @@ const NavigationBar = () => {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <Link className="nav-link" to="/l1t1">
+                      <Link className="nav-link" to="/level1-term1">
                         Level 1 Term 1
                       </Link>
                     </li>
                     <li>
-                      <Link className="nav-link" to="/l1t2">
+                      <Link className="nav-link" to="/level1-term2">
                         Level 1 Term 2
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="nav-link" to="/math">
-                        MATH
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="nav-link" to="/ntf">
-                        NTF
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="nav-link" to="/physics">
-                        Physics
-                      </Link>
-                    </li> */}
                   </ul>
                 </li>
                 <li className="nav-item">

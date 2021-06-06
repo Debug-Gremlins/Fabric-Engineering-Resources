@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import AnnounceScreen from "../../screens/AnnounceScreen";
+import AnnounceScreenII from "../../screens/AnnounceScreenII";
 
 export class Level1Term2Page extends Component {
   render() {
     return (
       <>
-        <AnnounceScreen />
+        <AnnounceScreenII />
       </>
     );
   }

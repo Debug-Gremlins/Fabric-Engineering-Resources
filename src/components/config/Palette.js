@@ -4,6 +4,7 @@ export const CourseTitle = styled.div`
   margin-top: 200px;
   .card {
     background-color: #ffffb299;
+    align-items: center;
   }
   .section-title {
     width: 100%;
@@ -270,7 +271,7 @@ export const ScreenArea = styled.div`
 
 export const InfoArea = styled.div`
   .content {
-    text-align: left;
+    text-align: left !important;
   }
   h1 {
     color: #0c253a;

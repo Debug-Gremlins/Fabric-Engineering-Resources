@@ -41,27 +41,27 @@ function Footer() {
                 title="Individual Sections"
                 subTitle=""
                 link1={
-                  <Link className="nav-link" to="/bce">
+                  <Link className="nav-link" to="/bce1-1">
                     BCE
                   </Link>
                 }
                 link2={
-                  <Link className="nav-link" to="/chemistry">
+                  <Link className="nav-link" to="/chemistry1-1">
                     Chemistry
                   </Link>
                 }
                 link3={
-                  <Link className="nav-link" to="/ntf">
+                  <Link className="nav-link" to="/ntf1-1">
                     NTF
                   </Link>
                 }
                 link4={
-                  <Link className="nav-link" to="/math">
+                  <Link className="nav-link" to="/math1-1">
                     Mathematics
                   </Link>
                 }
                 link5={
-                  <Link className="nav-link" to="/physics">
+                  <Link className="nav-link" to="/physics1-1">
                     Physics
                   </Link>
                 }

@@ -7,7 +7,7 @@ export class ScreenCardI extends Component {
         <div className="row justify-content-center align-items-center">
           <div className="card col-lg-6 col-md-6 col-sm-12">
             <img
-              className="effect1"
+              className="effect1 w-100"
               src={this.props.imgPath}
               alt="dataImg"
               srcSet

@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomTable from '../components/widgets/subjects/BCETable'
+import CustomTable from '../../../widgets/subjects/BCETable'
 
 function BCE() {
     return (

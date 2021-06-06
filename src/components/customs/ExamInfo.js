@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import AnnounceScreen from "../screens/AnnounceScreen";
+import AnnounceScreenI from "../screens/AnnounceScreenI";
 // import NoticeScreen from "../screens/NoticeScreen";
 
 export class ExamInfo extends Component {
   render() {
     return (
       <>
-        <AnnounceScreen />
+        <AnnounceScreenI />
         {/* <NoticeScreen /> */}
       </>
     );

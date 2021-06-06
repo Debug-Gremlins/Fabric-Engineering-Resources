@@ -159,6 +159,7 @@ const DevelopedBy = styled.div`
   .card {
     padding: 30px 20px;
     background-color: #ffffb299;
+    align-items: center;
   }
   h3 {
     /* font-family: "Lobster Two"; */

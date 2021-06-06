@@ -1,5 +1,5 @@
 import React from "react";
-import Chemistry from "../components/widgets/subjects/ChemistryTable";
+import Chemistry from "../../../widgets/subjects/ChemistryTable";
 
 function ChemistryPage() {
   return (

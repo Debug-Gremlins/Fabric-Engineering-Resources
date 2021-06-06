@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import announceImg from "../../assets/svg/bearie-partner.svg";
+import announceImg from "../../assets/svg/dedicated-team.svg";
 import ScreenCardI from "../widgets/screencard/ScreenCardI";
 import { ScreenArea } from "../config/Palette";
 
-export class AnnounceScreen extends Component {
+export class AnnounceScreenII extends Component {
   render() {
     return (
       <>
@@ -21,4 +21,4 @@ export class AnnounceScreen extends Component {
   }
 }
 
-export default AnnounceScreen;
+export default AnnounceScreenII;

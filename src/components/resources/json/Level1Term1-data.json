@@ -2,26 +2,26 @@
     {
         "course": "Business & Communicative English (BCE)",
         "lecturer": "Adnan Sir, Salahuddin Sir",
-        "access": "/bce"
+        "access": "/bce1-1"
     },
     {
         "course": "Chemistry",
         "lecturer": "Ajmol Sir, Samiul Sir, Sadia Mam, Farzana Mam",
-        "access": "/chemistry"
+        "access": "/chemistry1-1"
     },
     {
         "course": "Mathematics",
         "lecturer": "Anwar Sir, Anup Sir",
-        "access": "/math"
+        "access": "/math1-1"
     },
     {
-        "course": "Natural Textile Fiber",
+        "course": "Natural Textile Fiber (NTF)",
         "lecturer": "Bashar Sir, Tanima Mam",
-        "access": "/ntf"
+        "access": "/ntf1-1"
     },
     {
         "course": "Physics",
         "lecturer": "Harun Sir, Hedayet Sir",
-        "access": "/physics"
+        "access": "/physics1-1"
     }
 ]

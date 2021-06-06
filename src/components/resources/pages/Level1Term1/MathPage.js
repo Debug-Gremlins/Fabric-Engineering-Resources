@@ -1,5 +1,5 @@
 import React from 'react'
-import Math from "../components/widgets/subjects/MATHTable";
+import Math from "../../../widgets/subjects/MATHTable";
 
 function MathPage() {
     return (
