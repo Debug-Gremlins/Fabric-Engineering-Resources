@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Fabric-Engineering-Resource/static/css/main.b0f1a87e.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.8ab521e5.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.8ab521e5.chunk.js.map",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.b3cf3e36.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.b3cf3e36.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
     "static/js/2.ac38e0f2.chunk.js": "/Fabric-Engineering-Resource/static/js/2.ac38e0f2.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.488d21d2.js",
     "static/js/2.ac38e0f2.chunk.js",
     "static/css/main.b0f1a87e.chunk.css",
-    "static/js/main.8ab521e5.chunk.js"
+    "static/js/main.b3cf3e36.chunk.js"
   ]
 }
