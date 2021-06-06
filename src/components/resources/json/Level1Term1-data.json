@@ -1,0 +1,27 @@
+[
+    {
+        "course": "Business & Communicative English (BCE)",
+        "lecturer": "Adnan Sir, Salahuddin Sir",
+        "access": "/bce"
+    },
+    {
+        "course": "Chemistry",
+        "lecturer": "Ajmol Sir, Samiul Sir, Sadia Mam, Farzana Mam",
+        "access": "/chemistry"
+    },
+    {
+        "course": "Mathematics",
+        "lecturer": "Anwar Sir, Anup Sir",
+        "access": "/math"
+    },
+    {
+        "course": "Natural Textile Fiber",
+        "lecturer": "Bashar Sir, Tanima Mam",
+        "access": "/ntf"
+    },
+    {
+        "course": "Physics",
+        "lecturer": "Harun Sir, Hedayet Sir",
+        "access": "/physics"
+    }
+]

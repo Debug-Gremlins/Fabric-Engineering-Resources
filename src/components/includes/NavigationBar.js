@@ -40,7 +40,8 @@ const NavigationBar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcHome />Home
+                      <FcHome />
+                      Home
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -54,7 +55,8 @@ const NavigationBar = () => {
                     aria-expanded="false"
                   >
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcIdea />Resources
+                      <FcIdea />
+                      Resources
                     </IconContext.Provider>
                   </Link>
                   <ul
@@ -62,16 +64,16 @@ const NavigationBar = () => {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <Link className="nav-link" to="/bce">
-                        BCE
+                      <Link className="nav-link" to="/l1t1">
+                        Level 1 Term 1
                       </Link>
                     </li>
                     <li>
-                      <Link className="nav-link" to="/chemistry">
-                        Chemistry
+                      <Link className="nav-link" to="/l1t2">
+                        Level 1 Term 2
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="nav-link" to="/math">
                         MATH
                       </Link>
@@ -85,13 +87,14 @@ const NavigationBar = () => {
                       <Link className="nav-link" to="/physics">
                         Physics
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/syllabus">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcRules />Syllabus
+                      <FcRules />
+                      Syllabus
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -100,21 +103,24 @@ const NavigationBar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/accessories">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcMindMap />Accessories
+                      <FcMindMap />
+                      Accessories
                     </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/notice">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcSurvey />Notice
+                      <FcSurvey />
+                      Notice
                     </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/developer">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcElectronics />Developer
+                      <FcElectronics />
+                      Developer
                     </IconContext.Provider>
                   </Link>
                 </li>

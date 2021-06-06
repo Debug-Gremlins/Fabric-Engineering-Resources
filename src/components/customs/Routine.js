@@ -6,30 +6,26 @@ import styled from "styled-components";
 const Routine = () => {
   return (
     <>
-      <RoutineArea id = "routine">
+      <RoutineArea id="routine">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <img src={Rotimg} alt="" srcSet />
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-              <div className="card">
-                <div className="section-title">
-                  <RoutineCard
-                    title="PDF Folder"
-                    driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
-                    command="Visit Here"
-                  />
-                </div>
+              <div className="section-title">
+                <RoutineCard
+                  title="PDF Folder"
+                  driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
+                  command="Visit Here"
+                />
               </div>
-              <div className="card">
-                <div className="section-title">
-                  <RoutineCard
-                    title="Routine"
-                    driveLink="https://drive.google.com/file/d/1tQfwJulaJvKpJ2snhavqDAgX0KovXeIz/view"
-                    command="Learn More"
-                  />
-                </div>
+              <div className="section-title">
+                <RoutineCard
+                  title="Routine"
+                  driveLink="https://drive.google.com/file/d/1tQfwJulaJvKpJ2snhavqDAgX0KovXeIz/view"
+                  command="Learn More"
+                />
               </div>
             </div>
           </div>
@@ -37,15 +33,17 @@ const Routine = () => {
       </RoutineArea>
     </>
   );
-}
+};
 
 export default Routine;
 
 const RoutineArea = styled.div`
   margin-top: 80px;
+  .card{
+    margin-top: 0px;
+  }
   .section-title {
     width: 100%;
-    padding-bottom: 40px;
     font-size: 48px;
   }
 

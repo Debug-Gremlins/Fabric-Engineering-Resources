@@ -6,17 +6,19 @@ class RoutineCard extends Component {
   render() {
     return (
       <div>
-        <h1>{this.props.title}</h1>
-        <div className="btn">
-          <a
-            href={this.props.driveLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IconContext.Provider value={{ size: "25" }}>
-              {this.props.command} <FcDownRight />
-            </IconContext.Provider>
-          </a>
+        <div className="card">
+          <h1>{this.props.title}</h1>
+          <div className="btn">
+            <a
+              href={this.props.driveLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconContext.Provider value={{ size: "25" }}>
+                {this.props.command} <FcDownRight />
+              </IconContext.Provider>
+            </a>
+          </div>
         </div>
       </div>
     );
