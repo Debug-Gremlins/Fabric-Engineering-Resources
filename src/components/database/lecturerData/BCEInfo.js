@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import MentorData from "../widgets/MentorDataCard";
-import { InfoArea } from "../config/Palette";
-
-export class MathInfo extends Component {
+import MentorData from "../../widgets/MentorDataCard";
+import { InfoArea } from "../../config/Palette";
+export class BCEInfo extends Component {
   render() {
     return (
       <div>
@@ -11,17 +10,13 @@ export class MathInfo extends Component {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <MentorData
-                  name="Anwar Sir"
-                  info="Mathematics"
-                  contact="01719296229"
+                  name="Salahuddin Sir"
+                  info="BCE"
+                  contact="01937662691"
                 />
               </div>
               <div className="col-lg-4 col-md-6  col-sm-12">
-                <MentorData
-                  name="Anup Sir"
-                  info="Mathematics"
-                  contact="01730624387"
-                />
+                <MentorData name="Adnan Sir" info="BCE" contact="01717064028" />
               </div>
             </div>
           </div>
@@ -31,4 +26,4 @@ export class MathInfo extends Component {
   }
 }
 
-export default MathInfo;
+export default BCEInfo;

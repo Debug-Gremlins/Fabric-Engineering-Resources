@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import MentorData from "../widgets/MentorDataCard";
-import { InfoArea } from "../config/Palette";
-export class BCEInfo extends Component {
+import MentorData from "../../widgets/MentorDataCard";
+import { InfoArea } from "../../config/Palette";
+
+export class NTFInfo extends Component {
   render() {
     return (
       <div>
@@ -10,13 +11,17 @@ export class BCEInfo extends Component {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <MentorData
-                  name="Salahuddin Sir"
-                  info="BCE"
-                  contact="01937662691"
+                  name="Bashar Sir"
+                  info="NTF"
+                  contact="01684132207"
                 />
               </div>
               <div className="col-lg-4 col-md-6  col-sm-12">
-                <MentorData name="Adnan Sir" info="BCE" contact="01717064028" />
+                <MentorData
+                  name="Tanima Mam"
+                  info="NTF"
+                  contact="01902449635"
+                />
               </div>
             </div>
           </div>
@@ -26,4 +31,4 @@ export class BCEInfo extends Component {
   }
 }
 
-export default BCEInfo;
+export default NTFInfo;

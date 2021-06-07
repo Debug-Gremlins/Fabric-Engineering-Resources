@@ -20,7 +20,7 @@ export class Content extends Component {
                   and powerful, actionable insights.
                 </p>
                 <div className="btn">
-                  <Link to="/">Find Resources</Link>
+                  <Link to="/level1-term1">Find Resources</Link>
                 </div>
               </div>
             </div>

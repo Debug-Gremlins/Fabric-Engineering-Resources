@@ -1,8 +1,8 @@
 import React from "react";
-import { CourseTitle, OverlayButton } from "../../config/Palette";
+import { CourseTitle } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/chemistry-data.json";
-import ChemistryInfo from "../../lecturerData/ChemistryInfo";
+import ChemistryInfo from "../../database/lecturerData/ChemistryInfo";
 
 class ChemistryTable extends Component {
   render() {
@@ -15,13 +15,6 @@ class ChemistryTable extends Component {
                 <div className="section-title">
                   <h1>Chemistry</h1>
                 </div>
-                <OverlayButton>
-                  <a id="topchem" href="#bottomchem">
-                    <i className="fa fa-arrow-circle-down" aria-hidden="true" />
-                    <span>Bottom</span>
-                  </a>
-                </OverlayButton>
-                {/* table starts here */}
                 <table>
                   <tbody>
                     <tr>
@@ -50,12 +43,6 @@ class ChemistryTable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <OverlayButton>
-                  <a id="bottomchem" href="#topchem">
-                    <i className="fa fa-arrow-circle-up" aria-hidden="true" />
-                    <span>Top</span>
-                  </a>
-                </OverlayButton>
               </div>
             </div>
           </div>

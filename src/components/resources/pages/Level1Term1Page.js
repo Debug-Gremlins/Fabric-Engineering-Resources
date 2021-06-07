@@ -13,6 +13,7 @@ export class Level1Term1 extends Component {
                 <div className="col-lg-5 col-md-6 col-sm-12">
                   <ResourceDataCard
                     course={e.course}
+                    courseCode={e.courseCode}
                     lecturer={e.lecturer}
                     accessLink={e.access}
                   />

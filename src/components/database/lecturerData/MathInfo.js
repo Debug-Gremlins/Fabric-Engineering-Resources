@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import MentorData from "../widgets/MentorDataCard";
-import { InfoArea } from "../config/Palette";
+import MentorData from "../../widgets/MentorDataCard";
+import { InfoArea } from "../../config/Palette";
 
-export class NTFInfo extends Component {
+export class MathInfo extends Component {
   render() {
     return (
       <div>
@@ -11,16 +11,16 @@ export class NTFInfo extends Component {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <MentorData
-                  name="Bashar Sir"
-                  info="NTF"
-                  contact="01684132207"
+                  name="Anwar Sir"
+                  info="Mathematics"
+                  contact="01719296229"
                 />
               </div>
               <div className="col-lg-4 col-md-6  col-sm-12">
                 <MentorData
-                  name="Tanima Mam"
-                  info="NTF"
-                  contact="01902449635"
+                  name="Anup Sir"
+                  info="Mathematics"
+                  contact="01730624387"
                 />
               </div>
             </div>
@@ -31,4 +31,4 @@ export class NTFInfo extends Component {
   }
 }
 
-export default NTFInfo;
+export default MathInfo;

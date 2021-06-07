@@ -8,7 +8,6 @@ export const CourseTitle = styled.div`
   }
   .section-title {
     width: 100%;
-    padding-bottom: 20px;
     font-size: 48px;
   }
 
@@ -17,6 +16,7 @@ export const CourseTitle = styled.div`
     color: #15202bd1;
     font-size: 26px;
     font-weight: 400;
+    margin-bottom: 40px;
   }
 
   table {
@@ -96,15 +96,12 @@ export const CourseTitle = styled.div`
     padding: 0px 10px 0px !important;
     .card {
       text-align: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center;
       padding: 30px 0px;
     }
     .section-title h1 {
       font-size: 30px !important;
       font-size: 20px;
-      margin-top: 20px;
     }
     table tr th:first-child,
     table tr th:nth-child(2) {
@@ -131,12 +128,7 @@ export const CourseTitle = styled.div`
 `;
 
 export const OverlayButton = styled.div`
-  margin: 20px 0px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
 
   .fa-arrow-circle-down,

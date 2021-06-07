@@ -1,8 +1,8 @@
 import React from "react";
-import { CourseTitle, OverlayButton } from "../../config/Palette";
+import { CourseTitle } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/math-data.json";
-import MathInfo from "../../lecturerData/MathInfo";
+import MathInfo from "../../database/lecturerData/MathInfo";
 
 class MATHTable extends Component {
   render() {
@@ -15,13 +15,6 @@ class MATHTable extends Component {
                 <div className="section-title">
                   <h1>Mathematics</h1>
                 </div>
-                <OverlayButton>
-                  <a id="topmath" href="#bottommath">
-                    <i className="fa fa-arrow-circle-down" aria-hidden="true" />
-                    <span>Bottom</span>
-                  </a>
-                </OverlayButton>
-                {/* table starts here */}
                 <table>
                   <tbody>
                     <tr>
@@ -50,12 +43,6 @@ class MATHTable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <OverlayButton>
-                  <a id="bottommath" href="#topmath">
-                    <i className="fa fa-arrow-circle-up" aria-hidden="true" />
-                    <span>Top</span>
-                  </a>
-                </OverlayButton>
               </div>
             </div>
           </div>

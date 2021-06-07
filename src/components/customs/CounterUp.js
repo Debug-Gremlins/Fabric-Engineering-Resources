@@ -11,7 +11,7 @@ const CounterUp = () => {
       <CounterArea>
         <div className="container">
           <div className="row justify-content-center text-center align-items-center">
-            <div className="col-lg-3 col-md-4 col-sm-8 single-class">
+            <div className="col-lg-3 col-md-4 col-sm-12 single-class">
               <CustomCount
                 icons={<BiShieldAlt />}
                 title="Secured Development"
@@ -19,14 +19,14 @@ const CounterUp = () => {
               />
             </div>
 
-            <div className="col-lg-3 col-md-4 col-sm-8 single-class">
+            <div className="col-lg-3 col-md-4 col-sm-12 single-class">
               <CustomCount
                 icons={<ImBook />}
                 title="Coursewise Resources"
                 paragraph="Online class lectures provided by coursewise segments!"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-8 single-class">
+            <div className="col-lg-3 col-md-4 col-sm-12 single-class">
               <CustomCount
                 icons={<FiSlack />}
                 title="Regular Monitorization"
@@ -46,7 +46,7 @@ const CounterArea = styled.div`
   padding: 90px 0px 10px;
   align-items: center;
   .card {
-    padding: 100px 40px;
+    padding: 100px 20px;
     background-color: #ffffb299;
     align-items: center;
   }
@@ -63,7 +63,7 @@ const CounterArea = styled.div`
   }
   @media (max-width: 991px) {
     .card {
-      padding: 90px 20px;
+      padding: 100px 10px;
       background-color: #ffffb299;
     }
     h1 {

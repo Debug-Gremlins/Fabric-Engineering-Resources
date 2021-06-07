@@ -1,8 +1,8 @@
 import React from "react";
-import { CourseTitle, OverlayButton } from "../../config/Palette";
+import { CourseTitle } from "../../config/Palette";
 import data from "../../../json/bce-data.json";
 import { Component } from "react";
-import BCEInfo from "../../lecturerData/BCEInfo";
+import BCEInfo from "../../database/lecturerData/BCEInfo";
 
 class BCETable extends Component {
   render() {
@@ -15,12 +15,6 @@ class BCETable extends Component {
                 <div className="section-title">
                   <h1>Business &amp; Communicative English (BCE)</h1>
                 </div>
-                <OverlayButton>
-                  <a id="topbce" href="#bottombce">
-                    <i className="fa fa-arrow-circle-down" aria-hidden="true" />
-                    <span>Bottom</span>
-                  </a>
-                </OverlayButton>
                 <table>
                   <tr>
                     <th>Date</th>
@@ -47,12 +41,6 @@ class BCETable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <OverlayButton>
-                  <a id="bottomchem" href="#topbce">
-                    <i className="fa fa-arrow-circle-up" aria-hidden="true" />
-                    <span>Top</span>
-                  </a>
-                </OverlayButton>
               </div>
             </div>
           </div>

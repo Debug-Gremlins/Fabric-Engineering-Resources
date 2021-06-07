@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import MentorData from "../widgets/MentorDataCard";
-import { InfoArea } from "../config/Palette";
+import MentorData from "../../widgets/MentorDataCard";
+import { InfoArea } from "../../config/Palette";
 
 export class ChemistryInfo extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {TiArrowRightOutline} from 'react-icons/ti'
 
 class DetailsCompI extends Component {
   render() {
@@ -10,12 +11,8 @@ class DetailsCompI extends Component {
             <hr />
             <p>{this.props.detailsParagraph}</p>
             <div className="btn">
-              <a
-                href={this.props.detailsLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {this.props.detailsBtn}
+              <a href={this.props.detailsLink} target="_blank" rel="noreferrer">
+                {this.props.detailsBtn} <TiArrowRightOutline />
               </a>
             </div>
           </div>
