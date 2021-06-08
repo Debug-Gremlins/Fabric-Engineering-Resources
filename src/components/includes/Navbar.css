@@ -21,8 +21,8 @@ header {
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
   text-align: center;
-  /* background-color: #16443eda !important; */
-  background-color: rgba(66, 64, 60, 0.301);
+  background-color: #16443eec !important;
+  /* background-color: rgba(66, 64, 60, 0.301); */
   font-family: inherit;
   border: none;
   margin: 0;

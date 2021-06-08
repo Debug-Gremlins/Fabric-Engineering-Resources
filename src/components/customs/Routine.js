@@ -13,13 +13,13 @@ const Routine = () => {
               <img src={Rotimg} alt="" srcSet />
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-              <div className="section-title">
+              {/* <div className="section-title">
                 <RoutineCard
                   title="PDF Folder"
                   driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
                   command="Visit Here"
                 />
-              </div>
+              </div> */}
               <div className="section-title">
                 <RoutineCard
                   title="Routine"

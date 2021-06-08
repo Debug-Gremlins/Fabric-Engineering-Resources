@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ResourceDataCard from "../widgets/ResourceDataCard";
 import data from "../json/Level1Term1-data.json";
 import { ResourceArea } from "../Palette";
+import PdfResourceCard from "../widgets/PdfResourceCard";
 export class Level1Term1 extends Component {
   render() {
     return (
@@ -19,6 +20,14 @@ export class Level1Term1 extends Component {
                   />
                 </div>
               ))}
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <PdfResourceCard
+                  title="PDF Folder"
+                  subTitle="Level 1 - Term 1"
+                  description="Get PDF & important utilities of each courses."
+                  driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
+                />
+              </div>
             </div>
           </div>
         </ResourceArea>
