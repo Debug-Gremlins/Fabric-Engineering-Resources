@@ -134,23 +134,19 @@ export const OverlayButton = styled.div`
 
   .fa-arrow-circle-down,
   .fa-arrow-circle-up {
-    color: #17bf63;
-    color: #e0245e;
+    color: ${({ theme }) => theme.overlayBtnIcon};
   }
 
   a {
-    color: white;
-    color: #e0245e;
+    background: ${({ theme }) => theme.overlayBtnBg};
     display: inline-block;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 30px;
-    background: #d6abab73;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     font-family: Ubuntu;
     font-weight: 500;
-    box-shadow: 2px 2px 3px #a7919146;
+    box-shadow: 2px 2px 3px ${({ theme }) => theme.overlayBtnBoxShd} ;
   }
 
   a i {

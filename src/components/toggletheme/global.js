@@ -59,4 +59,39 @@ a {
        color: ${({ theme }) => theme.h2};
   }
   
+  
+h2 {
+  color: #0c253a;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #0c253a;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+.btn a {
+  color: #0c253a;
+}
+.btn:hover {
+  background-color: #0c253a;
+}
+.btn:hover a {
+  color: #a89f9f;
+}
+@media (max-width: 767px) {
+  .btn {
+    margin-top: 0px;
+    padding: 7px 15px;
+    background-color: transparent;
+    border-radius: 25px;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+  }
+}
+
   `;

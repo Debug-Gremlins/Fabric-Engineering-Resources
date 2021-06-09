@@ -151,7 +151,7 @@ const Developer = () => {
       </DevelopedBy>
     </>
   );
-}
+};
 
 export default Developer;
 
@@ -161,9 +161,13 @@ const DevelopedBy = styled.div`
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
   }
+  h1 {
+    font-family: Lobster Two;
+    color: ${({ theme }) => theme.devTitleColor};
+  }
   h3 {
     /* font-family: "Lobster Two"; */
-    color: #e0245e;
+    color: ${({ theme }) => theme.codeAnalysis};
   }
   h5 {
     color: #794bc4;
@@ -206,11 +210,6 @@ const DevelopedBy = styled.div`
 
   ul li .fa-linkedin-in:hover {
     color: #0e76a8;
-  }
-
-  h1 {
-    color: #e0245e;
-    font-family: Lobster Two;
   }
 
   p {
