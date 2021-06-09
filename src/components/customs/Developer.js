@@ -158,7 +158,7 @@ export default Developer;
 const DevelopedBy = styled.div`
   .card {
     padding: 30px 20px;
-    background-color: #ffffb299;
+    background: ${({ theme }) => theme.cardBG};
     align-items: center;
   }
   h3 {

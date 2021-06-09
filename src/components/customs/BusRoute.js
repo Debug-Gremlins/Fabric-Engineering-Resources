@@ -37,7 +37,7 @@ const BusRouteSec = styled.div`
   margin-top: 200px;
   padding: 10px;
   h2 {
-    color: #e0245e;
+    color: ${({ theme }) => theme.h2};
   }
   .bus1,
   .bus2,
@@ -51,11 +51,7 @@ const BusRouteSec = styled.div`
     border-radius: 15px;
   }
   .card {
-    background-color: #ffd2da94;
-    padding: 60px;
-  }
-  .card {
-    background-color: #ffffb299;
+    background: ${({ theme }) => theme.cardBg};
   }
   @media (max-width: 991px) {
     .bus1,

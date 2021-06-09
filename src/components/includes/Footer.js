@@ -160,20 +160,20 @@ const FooterArea = styled.div`
   font-family: Ubuntu;
   text-align: center;
   padding: 90px 0px 10px;
-  background: #efc7b9;
+  background: ${({ theme }) => theme.footerBG};
   position: relative;
   h3 {
-    color: #0f253b;
+    color: ${({ theme }) => theme.footerh3};
     font-size: 20px;
   }
   h4 {
-    color: #e0245e;
+    color: ${({ theme }) => theme.footerh4};
     font-size: 20px;
   }
 
   h5 {
     font-size: 18px;
-    color: #093d68;
+    color: ${({ theme }) => theme.footerh5};
   }
   ul {
     text-align: left;
@@ -185,7 +185,7 @@ const FooterArea = styled.div`
   ul li span {
     font-size: 20px;
     font-family: Ubuntu;
-    color: #e0245e;
+    color: ${({ theme }) => theme.footerSpan};
     display: inline-block;
     padding: 5px 0px;
   }
@@ -193,8 +193,7 @@ const FooterArea = styled.div`
     font-family: Poppins;
     text-decoration: none;
     display: inline-block;
-    color: #e4e4e4;
-    color: #15202b;
+    color: ${({ theme }) => theme.footerLinka};
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
@@ -205,12 +204,12 @@ const FooterArea = styled.div`
     font-size: 18px;
     font-weight: 500;
     padding: 40px 0px 10px;
-    color: #15202b;
+    color: ${({ theme }) => theme.footerCpyRgt};
   }
 
   .cpy-rgt span a {
     text-decoration: none;
-    color: #e0245e;
+    color: ${({ theme }) => theme.footerSpana};
     font-weight: 500;
   }
   .footerOverlay {
@@ -221,7 +220,7 @@ const FooterArea = styled.div`
   }
   .nav-item .nav-link {
     font-size: 16px;
-    color: #0c253a;
+    color: ${({ theme }) => theme.footerNav};
     margin: 5px 0px;
     font-weight: 400;
     padding: 0px;

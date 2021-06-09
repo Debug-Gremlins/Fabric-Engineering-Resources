@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/icon.png";
+// import { useDarkMode } from "../toggletheme/useDarkMode";
+// import { lightTheme, darkTheme } from "../toggletheme/palette";
+// import { ThemeProvider } from "styled-components";
 // import {
 //   FcHome,
 //   FcIdea,
@@ -12,8 +15,11 @@ import Logo from "../../assets/icon.png";
 // } from "react-icons/fc";
 import { IconContext } from "react-icons";
 import { GiArrowScope } from "react-icons/gi";
+// import Toggle from "../toggletheme/toogle";
 
 const NavigationBar = () => {
+  // const [theme, toggleTheme] = useDarkMode();
+  // const themeMode = theme === "light" ? lightTheme : darkTheme;
   return (
     <>
       <header>
@@ -108,6 +114,10 @@ const NavigationBar = () => {
             <Link className="navbar-brand" to="/" exact>
               <img className="navBrand" src={Logo} alt="" srcSet />
             </Link>
+            {/* <Toggle theme={theme} toggleTheme={toggleTheme} /> */}
+            {/* <ThemeProvider theme={themeMode}>
+              <Toggle theme={theme} toggleTheme={toggleTheme} />
+            </ThemeProvider> */}
           </div>
         </nav>
       </header>

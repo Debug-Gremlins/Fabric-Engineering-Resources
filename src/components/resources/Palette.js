@@ -1,16 +1,22 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 export const ResourceArea = styled.div`
   margin-top: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   .content {
     text-align: left;
+  }
+  .card {
+    margin-bottom: 30px;
   }
   h1 {
     font-size: 30px;
     color: #0c253a;
   }
+  h5 {
+    color: ${({ theme }) => theme.h5};
+  }
   p {
-    color: #e0245e;
+    color: ${({ theme }) => theme.levelTermParagraph};
     font-size: 22px;
   }
   .btn {

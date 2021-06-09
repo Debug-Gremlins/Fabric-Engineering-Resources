@@ -24,7 +24,7 @@ export class Level1Term1 extends Component {
                 <PdfResourceCard
                   title="PDF Folder"
                   subTitle="Level 1 - Term 1"
-                  description="Get PDF & important utilities of each courses."
+                  description="PDF & Utilities of each courses."
                   driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
                 />
               </div>

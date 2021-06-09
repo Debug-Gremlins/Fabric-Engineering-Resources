@@ -8,7 +8,7 @@ const Routine = () => {
     <>
       <RoutineArea id="routine">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-end">
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <img src={Rotimg} alt="" srcSet />
             </div>
@@ -39,7 +39,8 @@ export default Routine;
 
 const RoutineArea = styled.div`
   margin-top: 80px;
-  .card{
+  .card {
+    background: ${({ theme }) => theme.cardBG};
     margin-top: 0px;
     align-items: center;
   }
@@ -73,9 +74,6 @@ const RoutineArea = styled.div`
   }
   .btn:hover a {
     color: #a89f9f;
-  }
-  .card {
-    background-color: #ffffb299;
   }
 
   @media (max-width: 991px) {

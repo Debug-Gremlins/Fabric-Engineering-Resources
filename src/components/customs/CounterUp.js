@@ -47,7 +47,7 @@ const CounterArea = styled.div`
   align-items: center;
   .card {
     padding: 100px 20px;
-    background-color: #ffffb299;
+    background : ${({ theme }) => theme.cardBg};
     align-items: center;
   }
   h1 {
@@ -64,7 +64,6 @@ const CounterArea = styled.div`
   @media (max-width: 991px) {
     .card {
       padding: 100px 10px;
-      background-color: #ffffb299;
     }
     h1 {
       font-size: 22px;

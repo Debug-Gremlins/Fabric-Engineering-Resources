@@ -2,48 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
-/* Universal CSS */
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  font-family: DM Sans;
-  background: #e7e7e7;
-  color: #e4e4e4;
-  overflow-x: hidden;
-  font-weight: 400;
-  background-color: #ffd2da94;
-}
-
-body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: rgb(71, 71, 66); /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(136, 136, 167); /* color of the scroll thumb */
-  border-radius: 30px; /* roundness of the scroll thumb */
-  border: 2px solid rgb(71, 71, 66); /* creates padding around scroll thumb */
-}
-
-/* Universal CSS */
 
 h2 {
   color: #0c253a;
@@ -51,41 +9,24 @@ h2 {
   font-weight: 500;
 }
 
-h4 {
-  color: #e0245e;
-}
 
-h5 {
-  color: #093d68;
-}
-
-.card {
-  text-align: center;
-  padding: 50px;
-  border-radius: 20px;
-  background: linear-gradient(300deg, #ffbed781, #ebabff85);
-  box-shadow: 14px 10px 13px 0px #d8c5c5;
-  margin-bottom: 70px;
-  border: none;
-}
 .btn {
-    margin-top: 30px;
-    padding: 10px 20px;
-    border: 2px solid #0c253a;
-    background-color: transparent;
-    border-radius: 25px;
-    transition: all linear 0.3s;
-  }
-  .btn a {
-    color: #0c253a;
-  }
-  .btn:hover {
-    background-color: #0c253a;
-  }
-  .btn:hover a {
-    color: #a89f9f;
-  }
-
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #0c253a;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+.btn a {
+  color: #0c253a;
+}
+.btn:hover {
+  background-color: #0c253a;
+}
+.btn:hover a {
+  color: #a89f9f;
+}
 @media (max-width: 767px) {
   .btn {
     margin-top: 0px;

@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const CourseTitle = styled.div`
   margin-top: 200px;
   .card {
-    background-color: #ffffb299;
+    background: ${({ theme }) => theme.cardBG};
+    /* background-color: #ffffb299; */
     align-items: center;
   }
   .section-title {
@@ -267,6 +268,9 @@ export const InfoArea = styled.div`
   }
   h1 {
     color: #0c253a;
+  }
+  h4 {
+    color: ${({ theme }) => theme.h4};
   }
   p {
     color: #093d68;

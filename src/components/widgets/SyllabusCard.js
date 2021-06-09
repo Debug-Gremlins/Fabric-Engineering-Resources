@@ -87,8 +87,12 @@ const SyllabusArea = styled.div`
     height: auto;
   }
 
+  h5 {
+    color: ${({ theme }) => theme.h5};
+  }
+
   .card {
-    background-color: #ffffb299;
+    background: ${({ theme }) => theme.cardBg};
     align-items: stretch;
     padding: 30px;
   }
@@ -115,7 +119,6 @@ const SyllabusArea = styled.div`
 
   @media (max-width: 599px) {
     .card {
-      background-color: #ffffb299;
       align-items: stretch;
       padding: 30px;
     }

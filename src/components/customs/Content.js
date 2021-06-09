@@ -34,11 +34,11 @@ export class Content extends Component {
 export default Content;
 
 const ContentArea = styled.div`
-  background-color: #f5f5f5;
+  background: ${({ theme }) => theme.contentBG};
   padding: 70px 0px;
 
   h2 {
-    color: #e0245e;
+    color: ${({ theme }) => theme.contentH2};
     font-size: 30px;
   }
   hr {
@@ -46,26 +46,26 @@ const ContentArea = styled.div`
     width: 15%;
     padding: 2px;
     border-radius: 5px;
-    background-color: #093d68;
+    background: ${({ theme }) => theme.contentHr};
     margin: 10px auto;
   }
   p {
     font-size: 18px;
-    color: #15202b;
+    color: ${({ theme }) => theme.contentParagraph};
   }
   .btn {
     margin-top: 10px;
     padding: 10px 20px;
-    border: 2px solid #0c253a;
+    border: 2px solid  ${({ theme }) => theme.contentBtnBorder} ;
     background-color: transparent;
     border-radius: 25px;
     transition: all linear 0.3s;
   }
   .btn a {
-    color: #0c253a;
+    color: ${({ theme }) => theme.contentBtna} ;
   }
   .btn:hover {
-    background-color: #0c253a;
+    background: #0c253a;
   }
   .btn:hover a {
     color: #a89f9f;

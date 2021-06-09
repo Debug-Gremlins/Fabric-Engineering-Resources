@@ -11,7 +11,7 @@ export default class PdfResourceCard extends Component {
             <h5>{this.props.subTitle}</h5>
             <p>{this.props.description}</p>
             <div className="btn">
-              <a href={this.props.driveLink}>
+              <a href={this.props.driveLink} target="_blank" rel="noreferrer">
                 Visit Here <ImBook />
               </a>
             </div>

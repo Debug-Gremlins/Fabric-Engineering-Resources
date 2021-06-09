@@ -85,15 +85,15 @@ export default Details;
 const DetailsArea = styled.div`
   font-family: Ubuntu;
   padding: 0px;
-  color: #121c25;
   h1 {
     font-family: Ubuntu;
-    color: #e0245e;
+    color: ${({ theme }) => theme.detailsHeader};
   }
+  
   .details_content p {
     font-family: 16px;
     font-family: Poppins;
-    color: #0e161d;
+    color: ${({ theme }) => theme.detailsParagraph};
     padding-bottom: 20px;
     font-weight: 400;
     line-height: 1.7;
@@ -124,7 +124,7 @@ const DetailsArea = styled.div`
 
   .details_content hr {
     width: 20%;
-    background-color: #e0245e;
+    background: ${({ theme }) => theme.contentHr};
     padding: 2px;
     border-radius: 30px;
     margin-right: inherit;
