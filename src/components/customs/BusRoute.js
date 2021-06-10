@@ -11,17 +11,17 @@ const BusRoute = () => {
     <>
       <BusRouteSec id="bsr">
         <div className="container text-center">
-          <div className="row">
-            <div className="card bus1 col-lg-6 col-md-12 col-sm-12">
+          <div className="row justify-content-center">
+            <div className="bus1 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Uttara Route" routeImg={UttaraBus} />
             </div>
-            <div className="card bus2 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus2 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Mirpur Route" routeImg={MirpurBus} />
             </div>
-            <div className="card bus3 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus3 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Azimpur Route" routeImg={AzimpurBus} />
             </div>
-            <div className="card bus4 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus4 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Jatrabari Route" routeImg={PurandhkBus} />
             </div>
           </div>
@@ -29,13 +29,12 @@ const BusRoute = () => {
       </BusRouteSec>
     </>
   );
-}
+};
 
 export default BusRoute;
 
 const BusRouteSec = styled.div`
   margin-top: 200px;
-  padding: 10px;
   h2 {
     color: ${({ theme }) => theme.h2};
   }
@@ -43,7 +42,7 @@ const BusRouteSec = styled.div`
   .bus2,
   .bus3,
   .bus4 {
-    margin: 0;
+    align-items: center;
   }
   img {
     margin-top: 10px;
@@ -52,6 +51,8 @@ const BusRouteSec = styled.div`
   }
   .card {
     background: ${({ theme }) => theme.cardBg};
+    margin-bottom: 30px;
+    align-items: center;
   }
   @media (max-width: 991px) {
     .bus1,
@@ -66,7 +67,7 @@ const BusRouteSec = styled.div`
     }
   }
   @media (max-width: 767px) {
-    margin-top: 150px;
+    margin-top: 180px;
     .bus1,
     .bus2,
     .bus3,

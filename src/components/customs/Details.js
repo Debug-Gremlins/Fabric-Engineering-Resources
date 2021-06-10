@@ -89,7 +89,8 @@ const DetailsArea = styled.div`
     font-family: Ubuntu;
     color: ${({ theme }) => theme.detailsHeader};
   }
-  
+  background: ${({ theme }) => theme.detailsBG};
+
   .details_content p {
     font-family: 16px;
     font-family: Poppins;

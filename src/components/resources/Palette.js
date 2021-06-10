@@ -13,7 +13,7 @@ export const ResourceArea = styled.div`
     color: #0c253a;
   }
   h5 {
-    color: ${({ theme }) => theme.h5};
+    color: ${({ theme }) => theme.resourceh5};
   }
   p {
     color: ${({ theme }) => theme.levelTermParagraph};
