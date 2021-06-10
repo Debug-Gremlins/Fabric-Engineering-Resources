@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Fabric-Engineering-Resource/static/css/main.00ce2f32.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.f00697c3.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.f00697c3.chunk.js.map",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.6e137f32.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.6e137f32.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
     "static/js/2.f9680c5d.chunk.js": "/Fabric-Engineering-Resource/static/js/2.f9680c5d.chunk.js",
@@ -20,12 +20,13 @@
     "static/media/developer.ff2c13e2.png": "/Fabric-Engineering-Resource/static/media/developer.ff2c13e2.png",
     "static/media/exs.266a8189.png": "/Fabric-Engineering-Resource/static/media/exs.266a8189.png",
     "static/media/icon.c0383717.png": "/Fabric-Engineering-Resource/static/media/icon.c0383717.png",
+    "static/media/logo.a5f5b409.png": "/Fabric-Engineering-Resource/static/media/logo.a5f5b409.png",
     "static/media/topbnrbg2.d3ab01f6.png": "/Fabric-Engineering-Resource/static/media/topbnrbg2.d3ab01f6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.488d21d2.js",
     "static/js/2.f9680c5d.chunk.js",
     "static/css/main.00ce2f32.chunk.css",
-    "static/js/main.f00697c3.chunk.js"
+    "static/js/main.6e137f32.chunk.js"
   ]
 }
