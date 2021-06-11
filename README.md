@@ -20,10 +20,17 @@
   }
 }
 ```
-![screencapture-debug-gremlins-github-io-Fabric-Engineering-Resource-2021-06-03-09_44_15](https://user-images.githubusercontent.com/60808266/120583801-ae8f8080-c450-11eb-8ee9-a8badbe6a542.png)
 
-
-
+<table>
+  <tr>
+    <th> <h3>Light Mode ☀</h3> </th>    
+    <th> <h3>Dark Mode 🌙</h3> </th>
+  </tr>
+   <tr>
+    <td><img src="https://user-images.githubusercontent.com/60808266/121682436-eac08200-cadd-11eb-8bed-aaf1630bc51f.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/60808266/121682351-d1b7d100-cadd-11eb-91ba-47466619105b.png"></td>
+   </tr>
+</table>
 
 # Getting Started with Create React App
 
