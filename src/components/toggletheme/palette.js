@@ -3,7 +3,7 @@ export const lightTheme = {
   body: "#ffd2da94",
   topBnrH1: "#e0245e",
   topBnrParagraph: "#0c253a",
-  topBnrOverlay: "none",
+  topBnrOverlay: "linear-gradient(391deg,#ff6e979e ,#ecb84b85)",
   text: "#363537",
   h2: "#0c253a",
   h4: "#e0245e",

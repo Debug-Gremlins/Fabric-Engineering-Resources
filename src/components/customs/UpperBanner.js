@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
 import bannerImg from "../../assets/topbnrbg2.png";
-import balloon from "../../assets/balloon.png";
-import cloud from "../../assets/cloud.png";
-import cloud2 from "../../assets/cloud2.png";
+// import balloon from "../../assets/balloon.png";
+// import cloud from "../../assets/cloud.png";
+// import cloud2 from "../../assets/cloud2.png";
 
 class UpperBanner extends Component {
   render() {
@@ -13,9 +13,9 @@ class UpperBanner extends Component {
       <div>
         <TopBannerArea>
           <div className="top-bnr-overlay">
-            <img src={balloon}  alt="balloon" className="balloon" srcSet />
+            {/* <img src={balloon}  alt="balloon" className="balloon" srcSet />
             <img src={cloud} alt="cloud" className="balloncloudfade" srcSet />
-            <img src={cloud2} alt="cloud" className="balloncloudfade2" srcSet />
+            <img src={cloud2} alt="cloud" className="balloncloudfade2" srcSet /> */}
             <div className="home-shield row text-center justify-content-between">
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <a

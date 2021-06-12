@@ -3,7 +3,7 @@ import { func, string } from "prop-types";
 import styled from "styled-components";
 
 const Toggle = ({ theme, toggleTheme }) => {
-  const isLight = theme === "light";
+  // const isLight = theme === "light";
   return (
     <>
       <ButtonContainer>
