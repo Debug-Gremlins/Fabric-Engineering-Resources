@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const ResourceArea = styled.div`
   margin: 200px 0px 60px;
   .content {

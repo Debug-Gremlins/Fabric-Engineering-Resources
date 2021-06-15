@@ -44,6 +44,7 @@ export default CounterUp;
 
 const CounterArea = styled.div`
   padding: 90px 0px 60px;
+  background: ${({ theme }) => theme.counterBg};
   align-items: center;
   .card {
     padding: 100px 20px;

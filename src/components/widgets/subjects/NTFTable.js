@@ -1,5 +1,5 @@
 import React from "react";
-import { CourseTitle } from "../../config/Palette";
+import { CourseArea } from "../../config/Palette";
 import data from "../../../json/ntf-data.json";
 import { Component } from "react";
 import NTFInfo from "../../database/lecturerData/NTFInfo";
@@ -8,7 +8,7 @@ class NTFTable extends Component {
   render() {
     return (
       <div>
-        <CourseTitle>
+        <CourseArea>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -46,7 +46,7 @@ class NTFTable extends Component {
               </div>
             </div>
           </div>
-        </CourseTitle>
+        </CourseArea>
         <NTFInfo />
       </div>
     );

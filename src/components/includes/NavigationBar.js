@@ -153,8 +153,6 @@ const Header = styled.div`
     background: ${({ theme }) => theme.headerBG};
     font-family: inherit;
     border: none;
-    margin: 0;
-    padding: 0;
   }
 
   .dropdown-content {

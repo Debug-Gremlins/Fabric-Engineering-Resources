@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Developer = () => {
   return (
     <>
-      <DevelopedBy>
+      <DeveloperArea>
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
@@ -148,14 +148,14 @@ const Developer = () => {
             </div>
           </div>
         </div>
-      </DevelopedBy>
+      </DeveloperArea>
     </>
   );
 };
 
 export default Developer;
 
-const DevelopedBy = styled.div`
+const DeveloperArea = styled.div`
   margin: 150px 0px 60px;
   .card {
     padding: 30px 20px;

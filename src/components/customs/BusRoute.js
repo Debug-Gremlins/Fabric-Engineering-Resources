@@ -12,16 +12,16 @@ const BusRoute = () => {
       <BusRouteSec id="bsr">
         <div className="container text-center">
           <div className="row justify-content-center">
-            <div className="bus1 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus1 col-lg-5 col-md-12 col-sm-12">
               <Card routeTitle="Uttara Route" routeImg={UttaraBus} />
             </div>
-            <div className="bus2 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus2 col-lg-5 col-md-12 col-sm-12">
               <Card routeTitle="Mirpur Route" routeImg={MirpurBus} />
             </div>
-            <div className="bus3 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus3 col-lg-5 col-md-12 col-sm-12">
               <Card routeTitle="Azimpur Route" routeImg={AzimpurBus} />
             </div>
-            <div className="bus4 col-lg-6 col-md-12 col-sm-12">
+            <div className="bus4 col-lg-5 col-md-12 col-sm-12">
               <Card routeTitle="Jatrabari Route" routeImg={PurandhkBus} />
             </div>
           </div>

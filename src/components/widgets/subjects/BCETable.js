@@ -1,5 +1,5 @@
 import React from "react";
-import { CourseTitle } from "../../config/Palette";
+import { CourseArea } from "../../config/Palette";
 import data from "../../../json/bce-data.json";
 import { Component } from "react";
 import BCEInfo from "../../database/lecturerData/BCEInfo";
@@ -8,7 +8,7 @@ class BCETable extends Component {
   render() {
     return (
       <div>
-        <CourseTitle>
+        <CourseArea>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
@@ -44,7 +44,7 @@ class BCETable extends Component {
               </div>
             </div>
           </div>
-        </CourseTitle>
+        </CourseArea>
         <BCEInfo />
       </div>
     );

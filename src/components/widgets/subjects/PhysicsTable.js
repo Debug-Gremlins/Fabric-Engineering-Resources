@@ -1,5 +1,5 @@
 import React from "react";
-import { CourseTitle } from "../../config/Palette";
+import { CourseArea } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/physics-data.json";
 import PhysicsInfo from "../../database/lecturerData/PhysicsInfo";
@@ -8,7 +8,7 @@ class PhysicsTable extends Component {
   render() {
     return (
       <div>
-        <CourseTitle>
+        <CourseArea>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -46,7 +46,7 @@ class PhysicsTable extends Component {
               </div>
             </div>
           </div>
-        </CourseTitle>
+        </CourseArea>
         <PhysicsInfo />
       </div>
     );

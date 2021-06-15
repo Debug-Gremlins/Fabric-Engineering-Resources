@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CourseTitle = styled.div`
+export const CourseArea = styled.div`
   margin: 200px 0px 40px;
   .card {
     background: ${({ theme }) => theme.cardBG};

@@ -78,7 +78,6 @@ const TopBannerArea = styled.div`
   .top-bnr-overlay {
     height: inherit;
     background: ${({ theme }) => theme.topBnrOverlay};
-    /* background-color: rgba(18, 20, 20, 0.603); */
   }
   .top-over-details-part {
     width: 50%;

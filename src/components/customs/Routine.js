@@ -8,18 +8,11 @@ const Routine = () => {
     <>
       <RoutineArea id="routine">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
               <img src={Rotimg} alt="" srcSet />
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-              {/* <div className="section-title">
-                <RoutineCard
-                  title="PDF Folder"
-                  driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
-                  command="Visit Here"
-                />
-              </div> */}
+            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
               <div className="section-title">
                 <RoutineCard
                   title="Routine"
