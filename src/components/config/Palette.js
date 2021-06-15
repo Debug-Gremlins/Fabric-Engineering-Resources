@@ -220,14 +220,11 @@ export const ScreenArea = styled.div`
       transform: rotate(360deg);
     }
   } */
-  .card:nth-child(2) {
-    margin-left: 20px;
-  }
   .content {
     text-align: left;
   }
   h1 {
-    /* font-size: 30px; */
+    font-size: 34px;
     color: brown;
   }
   p {
@@ -245,12 +242,6 @@ export const ScreenArea = styled.div`
   }
   @media (max-width: 767px) {
     padding: 180px 20px 50px;
-    .card::first-child {
-      margin-bottom: 10px;
-    }
-    .card:nth-child(2) {
-      margin-left: 0px;
-    }
     h1 {
       font-size: 28px;
     }
