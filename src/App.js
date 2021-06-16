@@ -44,7 +44,7 @@ function App() {
           <Route exact path="/ntf1-1" component={Ntf1_1} />
           <Route exact path="/physics1-1" component={Physics1_1} />
           <Route exact path="/syllabus" component={SyllabusPage} />
-          <Route exact path="/covid19" component={Covid19} />
+          <Route exact path="/covid19updates" component={Covid19} />
           <Route exact path="/developer" component={DeveloperPage} />
           <Redirect to="/" />
         </Switch>

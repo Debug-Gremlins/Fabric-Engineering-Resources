@@ -83,8 +83,8 @@ function Footer() {
                   </Link>
                 }
                 link4={
-                  <Link className="foot-link" to="/notice">
-                    Term Updates
+                  <Link className="foot-link" to="/covid19updates">
+                    Covid Updates
                   </Link>
                 }
               />

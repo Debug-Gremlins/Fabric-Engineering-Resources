@@ -1,5 +1,5 @@
 import React from 'react'
-import CovidInfo from '../components/covid19/InfoCard'
+import CovidInfo from '../components/covid19/CovidInfo'
 
 
 function ExamInfoPage() {

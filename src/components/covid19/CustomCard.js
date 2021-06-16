@@ -8,7 +8,7 @@ const CustomCard = (props) => {
           <h3> {props.countryName}</h3>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-12">
-          <img className="flag" src={props.countryImg} alt="img" />
+          <img className="flag" src={props.countryImg} alt="" />
         </div>
       </div>
       <div className="row text-center info">

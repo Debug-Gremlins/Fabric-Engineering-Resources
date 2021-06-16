@@ -82,9 +82,9 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/covid19">
+                  <Link className="nav-link" to="/covid19updates">
                     <IconContext.Provider value={{ size: "25" }}>
-                      Covid'19
+                      Covid'19 Info
                     </IconContext.Provider>
                   </Link>
                 </li>
