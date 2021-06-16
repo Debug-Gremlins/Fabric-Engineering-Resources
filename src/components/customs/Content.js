@@ -52,6 +52,7 @@ const ContentArea = styled.div`
   p {
     font-size: 18px;
     color: ${({ theme }) => theme.contentParagraph};
+    padding-top: 20px;
   }
   .btn {
     margin-top: 10px;

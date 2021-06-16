@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../../assets/icon.png";
+import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { OverlayButton } from "../config/Palette";
 import FooterLink from "../widgets/FooterLink";
@@ -13,10 +13,6 @@ function Footer() {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <ul>
-                {/* <li>
-                  <span>Planned and Developed by :</span>
-                  <h3>Arnob Mahmud</h3>
-                </li> */}
                 <li>
                   <Link to="/">
                     <img className="rotating" src={Logo} alt="" srcSet />
@@ -196,7 +192,7 @@ const FooterArea = styled.div`
     opacity: 0.8;
   }
   .cpy-rgt {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     padding: 40px 0px 10px;
     color: ${({ theme }) => theme.footerCpyRgt};

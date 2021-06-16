@@ -14,7 +14,7 @@ import Math1_1 from "../src/components/resources/pages/Level1Term1/MathPage";
 import Ntf1_1 from "../src/components/resources/pages/Level1Term1/NtfPage";
 import Physics1_1 from "../src/components/resources/pages/Level1Term1/PhysicsPage";
 import AccessoriesPage from "./pages/AccessoriesPage";
-import Notice from "./pages/NoticePage";
+import Covid19 from "./pages/CovidPage";
 import DeveloperPage from "./pages/DeveloperPage";
 import Footer from "../src/components/includes/Footer";
 import Toggle from "./components/toggletheme/toogle";
@@ -44,7 +44,7 @@ function App() {
           <Route exact path="/ntf1-1" component={Ntf1_1} />
           <Route exact path="/physics1-1" component={Physics1_1} />
           <Route exact path="/syllabus" component={SyllabusPage} />
-          <Route exact path="/notice" component={Notice} />
+          <Route exact path="/covid19" component={Covid19} />
           <Route exact path="/developer" component={DeveloperPage} />
           <Redirect to="/" />
         </Switch>

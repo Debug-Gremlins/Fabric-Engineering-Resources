@@ -1,10 +1,11 @@
 import React from 'react'
-import Info from '../components/customs/ExamInfo'
+import CovidInfo from '../components/covid19/InfoCard'
+
 
 function ExamInfoPage() {
     return (
         <div>
-            <Info />
+            <CovidInfo />
         </div>
     )
 }

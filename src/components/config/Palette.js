@@ -140,8 +140,8 @@ export const OverlayButton = styled.div`
     background: ${({ theme }) => theme.overlayBtnBg};
     display: inline-block;
     text-decoration: none;
-    padding: 15px 20px;
-    border-radius: 30px;
+    padding: 13px 18px;
+    border-radius: 20px;
     transition-duration: 0.3s;
     font-family: Ubuntu;
     font-weight: 500;
