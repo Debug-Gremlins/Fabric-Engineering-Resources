@@ -4,10 +4,10 @@ const CustomCard = (props) => {
   return (
     <div>
       <div className="row justify-content-between">
-        <div className="col-lg-4 col-md-6 col-sm-4">
+        <div className="col-lg-8 col-md-8 col-sm-12">
           <h3> {props.countryName}</h3>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-4">
+        <div className="col-lg-4 col-md-4 col-sm-12">
           <img className="flag" src={props.countryImg} alt="img" />
         </div>
       </div>
@@ -17,16 +17,16 @@ const CustomCard = (props) => {
           <p>{props.cases}</p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
-          <h5>Active</h5>
-          <p>{props.active}</p>
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-6">
           <h5>Total Recovered</h5>
           <p>{props.recovered}</p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <h5>Recovered Today</h5>
           <p>{props.todayRecovered}</p>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-6">
+          <h5>Cases Today</h5>
+          <p>{props.todayCases}</p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <h5>Deaths Today</h5>

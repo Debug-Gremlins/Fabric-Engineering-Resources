@@ -31,9 +31,9 @@ const InfoCard = () => {
                       countryName={e.country}
                       countryImg={e.countryInfo.flag}
                       cases={e.cases}
-                      active={e.active}
                       recovered={e.recovered}
                       todayRecovered={e.todayRecovered}
+                      todayCases={e.todayCases}
                       todayDeaths={e.todayDeaths}
                       deaths={e.deaths}
                     />
