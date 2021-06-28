@@ -17,8 +17,8 @@ const Toggle = ({ theme, toggleTheme }) => {
           />
 
           <label class="label" for="chk">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
+            {/* <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i> */}
             <div class="ball"></div>
           </label>
         </div>
@@ -38,7 +38,7 @@ const ButtonContainer = styled.div`
   .switch-toggle {
     position: absolute;
     position: fixed;
-    top: 40px;
+    top: 45px;
     right: 25px;
     z-index: 110;
   }
@@ -52,40 +52,39 @@ const ButtonContainer = styled.div`
   }
   .label {
     background-color: #222;
-    border-radius: 20px;
+    border-radius: 25px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
     position: relative;
-    height: 25px;
-    width: 50px;
-    transform: scale(1.5);
+    height: 20px;
+    width: 40px;
+    transform: scale(1.2);
   }
 
   .label .ball {
     background-color: #ccc;
     border-radius: 50%;
     position: absolute;
-    left: 4px;
-    height: 20px;
-    width: 20px;
-    transform: translateX(0px);
+    left: 3px;
+    height: 15px;
+    width: 15px;
     transition: transform 0.2s linear;
   }
 
   .checkbox:checked + .label .ball {
-    transform: translateX(24px);
+    transform: translateX(17px);
   }
 
-  .fa-moon {
+  /* .fa-moon {
     color: #f1c40f;
-    font-size: 15px;
+    font-size: 10px;
+    margin-left: 5px;
   }
 
   .fa-sun {
     color: #f39c12;
-    font-size: 15px;
-  }
+    font-size: 10px;
+  } */
 `;
