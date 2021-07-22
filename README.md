@@ -27,8 +27,8 @@
     <th> <h3>Dark Mode 🌙</h3> </th>
   </tr>
    <tr>
-    <td><img src="https://user-images.githubusercontent.com/60808266/121682436-eac08200-cadd-11eb-8bed-aaf1630bc51f.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/60808266/121682351-d1b7d100-cadd-11eb-91ba-47466619105b.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/60808266/126663094-94126bb4-7fb1-4c91-8826-44b2bb027647.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/60808266/126663205-98504811-0dcc-4a70-9c9d-0a5d28f38d7d.png"></td>
    </tr>
 </table>
 
