@@ -151,19 +151,19 @@ const DetailsArea = styled.div`
   }
 
   .bg_sec_2 {
-    background-image: url(https://cdn.pixabay.com/photo/2018/04/14/20/12/texture-3319946_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/12/23/23/mining-excavator-1736293_960_720.jpg);
   }
 
   .bg_sec_3 {
-    background-image: url(https://cdn.pixabay.com/photo/2014/04/05/11/21/sewing-machine-315382_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/11/14/10/factory-4757646_960_720.jpg);
   }
 
   .bg_sec_4 {
-    background-image: url(https://cdn.pixabay.com/photo/2018/08/24/23/33/oil-3629119_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/26/20/54/crane-3109757_960_720.jpg);
   }
 
   .bg_sec_5 {
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/05/14/24/yarn-2583975_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/26/10/56/sparks-692122_960_720.jpg);
   }
   @media (max-width: 991px) {
     h1 {

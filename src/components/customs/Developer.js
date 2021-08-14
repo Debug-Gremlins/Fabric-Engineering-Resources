@@ -1,5 +1,5 @@
 import React from "react";
-import Devimg from "../../assets/developer.png";
+import Devimg from "../../assets/developer1.png";
 import styled from "styled-components";
 
 const Developer = () => {
@@ -163,7 +163,8 @@ const DeveloperArea = styled.div`
     align-items: center;
   }
   h1 {
-    font-family: Lobster Two;
+    font-family: Rubik;
+    font-size: 36px;
     color: ${({ theme }) => theme.devTitleColor};
   }
   h3 {
@@ -229,7 +230,7 @@ const DeveloperArea = styled.div`
   }
 
   .dev-icon img {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .shield {
@@ -260,6 +261,10 @@ const DeveloperArea = styled.div`
     h4,
     h5 {
       font-size: 18px;
+    }
+    .dev-icon img {
+      margin-top: 50px;
+      max-width: 100%;
     }
   }
 `;
